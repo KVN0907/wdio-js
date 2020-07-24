@@ -1,0 +1,31 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1595543155737' stop='1595543155738'>
+    <name>Open Amazon Page</name>
+    <title>Open Amazon Page</title>
+    <test-cases>
+        <test-case start='1595543155737' status='pending' stop='1595543155737'>
+            <name>Should open and validate Amzon Logo</name>
+            <title>Should open and validate Amzon Logo</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1595543155738' status='pending' stop='1595543155738'>
+            <name>Navigate to Login and should login sucessfully</name>
+            <title>Navigate to Login and should login sucessfully</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

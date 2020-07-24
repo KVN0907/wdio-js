@@ -1,0 +1,447 @@
+[1595584241.471][INFO]: Starting MSEdgeDriver 84.0.522.44 (bbafc8c0371c0b6da706d469d092209c8f5d25c6) on port 55894
+[1595584241.471][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping MSEdgeDriver safe.
+[1595584241.965][INFO]: [a90970e48c57689157227349d160f641] COMMAND InitSession {
+   "capabilities": {
+      "alwaysMatch": {
+         "browserName": "MicrosoftEdge"
+      },
+      "firstMatch": [ {
+
+      } ]
+   },
+   "desiredCapabilities": {
+      "browserName": "MicrosoftEdge"
+   }
+}
+[1595584241.971][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1595584241.974][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1595584241.982][INFO]: Cannot switch to US keyboard layout - some keys may be interpreted incorrectly
+[1595584241.982][INFO]: Launching msedge: "C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --load-extension="C:\Users\hp\AppData\Local\Temp\scoped_dir24364_205914757\internal" --log-level=0 --no-first-run --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\hp\AppData\Local\Temp\scoped_dir24364_1843396387" data:,
+[1595584242.395][DEBUG]: DevTools HTTP Request: http://localhost:55896/json/version
+[1595584242.792][DEBUG]: DevTools HTTP Response: {
+   "Browser": "Edg/84.0.522.44",
+   "Protocol-Version": "1.3",
+   "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36 Edg/84.0.522.44",
+   "V8-Version": "8.4.371.19",
+   "WebKit-Version": "537.36 (@bbafc8c0371c0b6da706d469d092209c8f5d25c6)",
+   "webSocketDebuggerUrl": "ws://localhost:55896/devtools/browser/0637d169-2b64-439d-b17d-a6543a659b3f"
+}
+
+[1595584242.792][DEBUG]: DevTools HTTP Request: http://localhost:55896/json/list
+[1595584242.841][DEBUG]: DevTools HTTP Response: [ {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:55896/devtools/page/5855AAF5CA005E01B1390BF648E3C718",
+   "id": "5855AAF5CA005E01B1390BF648E3C718",
+   "title": "Chrome Automation Extension",
+   "type": "background_page",
+   "url": "chrome-extension://aapnijgdinlhnhlmodcfapnahmbfebeb/_generated_background_page.html",
+   "webSocketDebuggerUrl": "ws://localhost:55896/devtools/page/5855AAF5CA005E01B1390BF648E3C718"
+}, {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:55896/devtools/page/A314A70D38F207FAE46D3151472F3E89",
+   "id": "A314A70D38F207FAE46D3151472F3E89",
+   "title": "",
+   "type": "page",
+   "url": "data:,",
+   "webSocketDebuggerUrl": "ws://localhost:55896/devtools/page/A314A70D38F207FAE46D3151472F3E89"
+} ]
+
+[1595584242.903][DEBUG]: DevTools HTTP Request: http://localhost:55896/json/list
+[1595584242.974][DEBUG]: DevTools HTTP Response: [ {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:55896/devtools/page/5855AAF5CA005E01B1390BF648E3C718",
+   "id": "5855AAF5CA005E01B1390BF648E3C718",
+   "title": "Chrome Automation Extension",
+   "type": "background_page",
+   "url": "chrome-extension://aapnijgdinlhnhlmodcfapnahmbfebeb/_generated_background_page.html",
+   "webSocketDebuggerUrl": "ws://localhost:55896/devtools/page/5855AAF5CA005E01B1390BF648E3C718"
+}, {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:55896/devtools/page/A314A70D38F207FAE46D3151472F3E89",
+   "id": "A314A70D38F207FAE46D3151472F3E89",
+   "title": "data:,",
+   "type": "page",
+   "url": "data:,",
+   "webSocketDebuggerUrl": "ws://localhost:55896/devtools/page/A314A70D38F207FAE46D3151472F3E89"
+} ]
+
+[1595584243.024][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1595584245.058][DEBUG]: DevTools WebSocket Command: Page.addScriptToEvaluateOnNewDocument (id=1) A314A70D38F207FAE46D3151472F3E89 {
+   "source": "(function () {window.cdc_adoQpoasnfa76pfcZLmcfl_Array = window.Array;window.cdc_adoQpoasnfa76pfcZLmcfl_Promise = window.Promise;window.cdc_adoQpoasnfa76pfcZLmcfl_Symbol = window.Symbol;}) ();"
+}
+[1595584245.058][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=2) A314A70D38F207FAE46D3151472F3E89 {
+   "expression": "(function () {window.cdc_adoQpoasnfa76pfcZLmcfl_Array = window.Array;window.cdc_adoQpoasnfa76pfcZLmcfl_Promise = window.Promise;window.cdc_adoQpoasnfa76pfcZLmcfl_Symbol = window.Symbol;}) ();"
+}
+[1595584245.059][DEBUG]: DevTools WebSocket Command: Log.enable (id=3) A314A70D38F207FAE46D3151472F3E89 {
+
+}
+[1595584245.059][DEBUG]: DevTools WebSocket Command: DOM.getDocument (id=4) A314A70D38F207FAE46D3151472F3E89 {
+
+}
+[1595584245.059][DEBUG]: DevTools WebSocket Command: Target.setAutoAttach (id=5) A314A70D38F207FAE46D3151472F3E89 {
+   "autoAttach": true,
+   "flatten": true,
+   "waitForDebuggerOnStart": false
+}
+[1595584245.059][DEBUG]: DevTools WebSocket Command: Page.enable (id=6) A314A70D38F207FAE46D3151472F3E89 {
+
+}
+[1595584245.059][DEBUG]: DevTools WebSocket Command: Page.enable (id=7) A314A70D38F207FAE46D3151472F3E89 {
+
+}
+[1595584245.059][DEBUG]: DevTools WebSocket Response: Page.addScriptToEvaluateOnNewDocument (id=1) A314A70D38F207FAE46D3151472F3E89 {
+   "identifier": "1"
+}
+[1595584245.059][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=2) A314A70D38F207FAE46D3151472F3E89 {
+   "result": {
+      "type": "undefined"
+   }
+}
+[1595584245.060][DEBUG]: DevTools WebSocket Response: Log.enable (id=3) A314A70D38F207FAE46D3151472F3E89 {
+
+}
+[1595584245.060][DEBUG]: DevTools WebSocket Response: DOM.getDocument (id=4) A314A70D38F207FAE46D3151472F3E89 {
+   "root": {
+      "backendNodeId": 2,
+      "baseURL": "data:,",
+      "childNodeCount": 1,
+      "children": [ {
+         "attributes": [  ],
+         "backendNodeId": 4,
+         "childNodeCount": 2,
+         "children": [ {
+            "attributes": [  ],
+            "backendNodeId": 5,
+            "childNodeCount": 0,
+            "localName": "head",
+            "nodeId": 3,
+            "nodeName": "HEAD",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 2
+         }, {
+            "attributes": [  ],
+            "backendNodeId": 3,
+            "childNodeCount": 0,
+            "localName": "body",
+            "nodeId": 4,
+            "nodeName": "BODY",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 2
+         } ],
+         "frameId": "A314A70D38F207FAE46D3151472F3E89",
+         "localName": "html",
+         "nodeId": 2,
+         "nodeName": "HTML",
+         "nodeType": 1,
+         "nodeValue": "",
+         "parentId": 1
+      } ],
+      "documentURL": "data:,",
+      "localName": "",
+      "nodeId": 1,
+      "nodeName": "#document",
+      "nodeType": 9,
+      "nodeValue": "",
+      "xmlVersion": ""
+   }
+}
+[1595584245.060][DEBUG]: DevTools WebSocket Response: Target.setAutoAttach (id=5) A314A70D38F207FAE46D3151472F3E89 {
+
+}
+[1595584245.060][DEBUG]: DevTools WebSocket Response: Page.enable (id=6) A314A70D38F207FAE46D3151472F3E89 {
+
+}
+[1595584245.060][DEBUG]: DevTools WebSocket Response: Page.enable (id=7) A314A70D38F207FAE46D3151472F3E89 {
+
+}
+[1595584245.060][DEBUG]: DevTools WebSocket Command: Runtime.enable (id=8) A314A70D38F207FAE46D3151472F3E89 {
+
+}
+[1595584245.061][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated A314A70D38F207FAE46D3151472F3E89 {
+   "context": {
+      "auxData": {
+         "frameId": "A314A70D38F207FAE46D3151472F3E89",
+         "isDefault": true,
+         "type": "default"
+      },
+      "id": 1,
+      "name": "",
+      "origin": "://"
+   }
+}
+[1595584245.061][DEBUG]: DevTools WebSocket Response: Runtime.enable (id=8) A314A70D38F207FAE46D3151472F3E89 {
+
+}
+[1595584245.061][DEBUG]: DevTools WebSocket Command: Page.enable (id=9) A314A70D38F207FAE46D3151472F3E89 {
+
+}
+[1595584245.061][DEBUG]: DevTools WebSocket Response: Page.enable (id=9) A314A70D38F207FAE46D3151472F3E89 {
+
+}
+[1595584245.061][DEBUG]: DevTools WebSocket Command: Runtime.enable (id=10) A314A70D38F207FAE46D3151472F3E89 {
+
+}
+[1595584245.062][DEBUG]: DevTools WebSocket Response: Runtime.enable (id=10) A314A70D38F207FAE46D3151472F3E89 {
+
+}
+[1595584245.062][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=11) A314A70D38F207FAE46D3151472F3E89 {
+   "awaitPromise": true,
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+[1595584245.064][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=11) A314A70D38F207FAE46D3151472F3E89 {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": 1
+      }
+   }
+}
+[1595584245.064][INFO]: [a90970e48c57689157227349d160f641] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": false,
+      "browserName": "msedge",
+      "browserVersion": "84.0.522.44",
+      "ms:edgeOptions": {
+         "debuggerAddress": "localhost:55896"
+      },
+      "msedge": {
+         "msedgedriverVersion": "84.0.522.44 (bbafc8c0371c0b6da706d469d092209c8f5d25c6)",
+         "userDataDir": "C:\\Users\\hp\\AppData\\Local\\Temp\\scoped_dir24364_1843396387"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "a90970e48c57689157227349d160f641"
+}
+[1595584245.159][INFO]: [a90970e48c57689157227349d160f641] COMMAND MaximizeWindow {
+
+}
+[1595584245.159][INFO]: Waiting for pending navigations...
+[1595584245.159][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=12) A314A70D38F207FAE46D3151472F3E89 {
+   "expression": "1"
+}
+[1595584245.160][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=12) A314A70D38F207FAE46D3151472F3E89 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1595584245.160][DEBUG]: DevTools WebSocket Command: DOM.getDocument (id=13) A314A70D38F207FAE46D3151472F3E89 {
+
+}
+[1595584245.161][DEBUG]: DevTools WebSocket Response: DOM.getDocument (id=13) A314A70D38F207FAE46D3151472F3E89 {
+   "root": {
+      "backendNodeId": 2,
+      "baseURL": "data:,",
+      "childNodeCount": 1,
+      "children": [ {
+         "attributes": [  ],
+         "backendNodeId": 4,
+         "childNodeCount": 2,
+         "children": [ {
+            "attributes": [  ],
+            "backendNodeId": 5,
+            "childNodeCount": 0,
+            "localName": "head",
+            "nodeId": 7,
+            "nodeName": "HEAD",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 6
+         }, {
+            "attributes": [  ],
+            "backendNodeId": 3,
+            "childNodeCount": 0,
+            "localName": "body",
+            "nodeId": 8,
+            "nodeName": "BODY",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 6
+         } ],
+         "frameId": "A314A70D38F207FAE46D3151472F3E89",
+         "localName": "html",
+         "nodeId": 6,
+         "nodeName": "HTML",
+         "nodeType": 1,
+         "nodeValue": "",
+         "parentId": 5
+      } ],
+      "documentURL": "data:,",
+      "localName": "",
+      "nodeId": 5,
+      "nodeName": "#document",
+      "nodeType": 9,
+      "nodeValue": "",
+      "xmlVersion": ""
+   }
+}
+[1595584245.161][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=14) A314A70D38F207FAE46D3151472F3E89 {
+   "awaitPromise": false,
+   "expression": "document.readyState",
+   "returnByValue": true
+}
+[1595584245.162][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=14) A314A70D38F207FAE46D3151472F3E89 {
+   "result": {
+      "type": "string",
+      "value": "complete"
+   }
+}
+[1595584245.162][INFO]: Done waiting for pending navigations. Status: ok
+[1595584245.162][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1595584247.176][DEBUG]: DevTools WebSocket Command: Browser.getWindowForTarget (id=1) browser {
+   "targetId": "A314A70D38F207FAE46D3151472F3E89"
+}
+[1595584247.176][DEBUG]: DevTools WebSocket Response: Browser.getWindowForTarget (id=1) browser {
+   "bounds": {
+      "height": 805,
+      "left": 9,
+      "top": 9,
+      "width": 1051,
+      "windowState": "normal"
+   },
+   "windowId": 1
+}
+[1595584247.176][DEBUG]: DevTools WebSocket Command: Browser.setWindowBounds (id=2) browser {
+   "bounds": {
+      "windowState": "maximized"
+   },
+   "windowId": 1
+}
+[1595584247.185][DEBUG]: DevTools WebSocket Response: Browser.setWindowBounds (id=2) browser {
+
+}
+[1595584247.286][DEBUG]: DevTools WebSocket Command: Browser.getWindowBounds (id=3) browser {
+   "windowId": 1
+}
+[1595584247.286][DEBUG]: DevTools WebSocket Response: Browser.getWindowBounds (id=3) browser {
+   "bounds": {
+      "height": 840,
+      "left": -8,
+      "top": -8,
+      "width": 1552,
+      "windowState": "maximized"
+   }
+}
+[1595584247.286][DEBUG]: DevTools WebSocket Command: Browser.getWindowForTarget (id=4) browser {
+   "targetId": "A314A70D38F207FAE46D3151472F3E89"
+}
+[1595584247.287][DEBUG]: DevTools WebSocket Response: Browser.getWindowForTarget (id=4) browser {
+   "bounds": {
+      "height": 840,
+      "left": -8,
+      "top": -8,
+      "width": 1552,
+      "windowState": "maximized"
+   },
+   "windowId": 1
+}
+[1595584247.287][INFO]: Waiting for pending navigations...
+[1595584247.287][DEBUG]: DevTools WebSocket Event: Page.frameResized A314A70D38F207FAE46D3151472F3E89 {
+
+}
+[1595584247.287][DEBUG]: DevTools WebSocket Event: Page.frameResized A314A70D38F207FAE46D3151472F3E89 {
+
+}
+[1595584247.287][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=15) A314A70D38F207FAE46D3151472F3E89 {
+   "expression": "1"
+}
+[1595584247.287][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=15) A314A70D38F207FAE46D3151472F3E89 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1595584247.288][INFO]: Done waiting for pending navigations. Status: ok
+[1595584247.288][INFO]: [a90970e48c57689157227349d160f641] RESPONSE MaximizeWindow {
+   "height": 840,
+   "width": 1552,
+   "x": -8,
+   "y": -8
+}
+[1595584247.294][INFO]: [a90970e48c57689157227349d160f641] COMMAND Quit {
+
+}
+[1595584247.431][INFO]: [a90970e48c57689157227349d160f641] RESPONSE Quit
+[1595584247.431][DEBUG]: Log type 'driver' lost 0 entries on destruction
+[1595584247.431][DEBUG]: Log type 'browser' lost 0 entries on destruction

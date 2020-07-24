@@ -1,0 +1,28 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1595543155962' stop='1595543155973'>
+    <name>Open Amazon Page</name>
+    <title>Open Amazon Page</title>
+    <test-cases>
+        <test-case start='1595543155963' status='broken' stop='1595543155972'>
+            <name>Should open and validate Amzon Logo</name>
+            <title>Should open and validate Amzon Logo</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>allureReporter is not defined</message>
+                <stack-trace>ReferenceError: allureReporter is not defined
+                    at Context.&lt;anonymous> (D:\wdio-js\test\specs\/amazonSampleFlow.js:17:9)
+                    at Context.executeSync (D:\wdio-js\node_modules\@wdio\sync\build\index.js:56:18)
+                    at D:\wdio-js\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

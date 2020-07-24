@@ -1,0 +1,33 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1595543332853' stop='1595543358623'>
+    <name>Open Amazon Page</name>
+    <title>Open Amazon Page</title>
+    <test-cases>
+        <test-case start='1595543332853' status='broken' stop='1595543358622'>
+            <name>Should open and validate Amzon Logo</name>
+            <title>Should open and validate Amzon Logo</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Can't call click on element with selector "=Your Wish List" because element wasn't found</message>
+                <stack-trace>Error: Can't call click on element with selector "=Your Wish List" because element wasn't found
+                    at implicitWait (D:\wdio-js\node_modules\webdriverio\build\utils\implicitWait.js:22:13)
+                    at Element.runCommandWithHooks (D:\wdio-js\node_modules\@wdio\sync\build\wrapCommand.js:82:22)
+                    at Element.wrapCommandFn (D:\wdio-js\node_modules\@wdio\sync\build\wrapCommand.js:59:40)
+                    at Element.click (D:\wdio-js\node_modules\webdriverio\build\middlewares.js:40:8)
+                    at amazonPDPpage.gotoWishList (D:\wdio-js\test\pageobjects\/amazonPDPpage.js:39:27)
+                    at Context.&lt;anonymous> (D:\wdio-js\test\specs\/amazonSampleFlow.js:25:23)
+                    at Context.executeSync (D:\wdio-js\node_modules\@wdio\sync\build\index.js:56:18)
+                    at D:\wdio-js\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

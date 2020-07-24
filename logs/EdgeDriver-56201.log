@@ -1,0 +1,3582 @@
+[1595584452.148][INFO]: Starting MSEdgeDriver 84.0.522.44 (bbafc8c0371c0b6da706d469d092209c8f5d25c6) on port 56201
+[1595584452.148][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping MSEdgeDriver safe.
+[1595584452.637][INFO]: [b741df3cf7b3719e6cdc6ee195a39894] COMMAND InitSession {
+   "capabilities": {
+      "alwaysMatch": {
+         "browserName": "MicrosoftEdge"
+      },
+      "firstMatch": [ {
+
+      } ]
+   },
+   "desiredCapabilities": {
+      "browserName": "MicrosoftEdge"
+   }
+}
+[1595584452.648][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1595584452.651][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1595584452.660][INFO]: Cannot switch to US keyboard layout - some keys may be interpreted incorrectly
+[1595584452.660][INFO]: Launching msedge: "C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --load-extension="C:\Users\hp\AppData\Local\Temp\scoped_dir10088_539898183\internal" --log-level=0 --no-first-run --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\hp\AppData\Local\Temp\scoped_dir10088_2030432116" data:,
+[1595584453.138][DEBUG]: DevTools HTTP Request: http://localhost:56216/json/version
+[1595584453.780][DEBUG]: DevTools HTTP Response: {
+   "Browser": "Edg/84.0.522.44",
+   "Protocol-Version": "1.3",
+   "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36 Edg/84.0.522.44",
+   "V8-Version": "8.4.371.19",
+   "WebKit-Version": "537.36 (@bbafc8c0371c0b6da706d469d092209c8f5d25c6)",
+   "webSocketDebuggerUrl": "ws://localhost:56216/devtools/browser/60a83aea-5970-4f25-b755-d9b4b26759c6"
+}
+
+[1595584453.780][DEBUG]: DevTools HTTP Request: http://localhost:56216/json/list
+[1595584453.899][DEBUG]: DevTools HTTP Response: [ {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:56216/devtools/page/30DB144309193A98047F9E5EACADE1F7",
+   "id": "30DB144309193A98047F9E5EACADE1F7",
+   "title": "Chrome Automation Extension",
+   "type": "background_page",
+   "url": "chrome-extension://aapnijgdinlhnhlmodcfapnahmbfebeb/_generated_background_page.html",
+   "webSocketDebuggerUrl": "ws://localhost:56216/devtools/page/30DB144309193A98047F9E5EACADE1F7"
+}, {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:56216/devtools/page/503690452DB1DC6F079D0175A9B66042",
+   "id": "503690452DB1DC6F079D0175A9B66042",
+   "title": "",
+   "type": "page",
+   "url": "data:,",
+   "webSocketDebuggerUrl": "ws://localhost:56216/devtools/page/503690452DB1DC6F079D0175A9B66042"
+} ]
+
+[1595584453.900][DEBUG]: DevTools HTTP Request: http://localhost:56216/json/list
+[1595584454.017][DEBUG]: DevTools HTTP Response: [ {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:56216/devtools/page/30DB144309193A98047F9E5EACADE1F7",
+   "id": "30DB144309193A98047F9E5EACADE1F7",
+   "title": "Chrome Automation Extension",
+   "type": "background_page",
+   "url": "chrome-extension://aapnijgdinlhnhlmodcfapnahmbfebeb/_generated_background_page.html",
+   "webSocketDebuggerUrl": "ws://localhost:56216/devtools/page/30DB144309193A98047F9E5EACADE1F7"
+}, {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:56216/devtools/page/503690452DB1DC6F079D0175A9B66042",
+   "id": "503690452DB1DC6F079D0175A9B66042",
+   "title": "data:,",
+   "type": "page",
+   "url": "data:,",
+   "webSocketDebuggerUrl": "ws://localhost:56216/devtools/page/503690452DB1DC6F079D0175A9B66042"
+} ]
+
+[1595584454.033][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1595584456.350][DEBUG]: DevTools WebSocket Command: Page.addScriptToEvaluateOnNewDocument (id=1) 503690452DB1DC6F079D0175A9B66042 {
+   "source": "(function () {window.cdc_adoQpoasnfa76pfcZLmcfl_Array = window.Array;window.cdc_adoQpoasnfa76pfcZLmcfl_Promise = window.Promise;window.cdc_adoQpoasnfa76pfcZLmcfl_Symbol = window.Symbol;}) ();"
+}
+[1595584456.351][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=2) 503690452DB1DC6F079D0175A9B66042 {
+   "expression": "(function () {window.cdc_adoQpoasnfa76pfcZLmcfl_Array = window.Array;window.cdc_adoQpoasnfa76pfcZLmcfl_Promise = window.Promise;window.cdc_adoQpoasnfa76pfcZLmcfl_Symbol = window.Symbol;}) ();"
+}
+[1595584456.351][DEBUG]: DevTools WebSocket Command: Log.enable (id=3) 503690452DB1DC6F079D0175A9B66042 {
+
+}
+[1595584456.351][DEBUG]: DevTools WebSocket Command: DOM.getDocument (id=4) 503690452DB1DC6F079D0175A9B66042 {
+
+}
+[1595584456.351][DEBUG]: DevTools WebSocket Command: Target.setAutoAttach (id=5) 503690452DB1DC6F079D0175A9B66042 {
+   "autoAttach": true,
+   "flatten": true,
+   "waitForDebuggerOnStart": false
+}
+[1595584456.351][DEBUG]: DevTools WebSocket Command: Page.enable (id=6) 503690452DB1DC6F079D0175A9B66042 {
+
+}
+[1595584456.352][DEBUG]: DevTools WebSocket Command: Page.enable (id=7) 503690452DB1DC6F079D0175A9B66042 {
+
+}
+[1595584456.352][DEBUG]: DevTools WebSocket Response: Page.addScriptToEvaluateOnNewDocument (id=1) 503690452DB1DC6F079D0175A9B66042 {
+   "identifier": "1"
+}
+[1595584456.352][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=2) 503690452DB1DC6F079D0175A9B66042 {
+   "result": {
+      "type": "undefined"
+   }
+}
+[1595584456.352][DEBUG]: DevTools WebSocket Response: Log.enable (id=3) 503690452DB1DC6F079D0175A9B66042 {
+
+}
+[1595584456.353][DEBUG]: DevTools WebSocket Response: DOM.getDocument (id=4) 503690452DB1DC6F079D0175A9B66042 {
+   "root": {
+      "backendNodeId": 2,
+      "baseURL": "data:,",
+      "childNodeCount": 1,
+      "children": [ {
+         "attributes": [  ],
+         "backendNodeId": 4,
+         "childNodeCount": 2,
+         "children": [ {
+            "attributes": [  ],
+            "backendNodeId": 5,
+            "childNodeCount": 0,
+            "localName": "head",
+            "nodeId": 3,
+            "nodeName": "HEAD",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 2
+         }, {
+            "attributes": [  ],
+            "backendNodeId": 3,
+            "childNodeCount": 0,
+            "localName": "body",
+            "nodeId": 4,
+            "nodeName": "BODY",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 2
+         } ],
+         "frameId": "503690452DB1DC6F079D0175A9B66042",
+         "localName": "html",
+         "nodeId": 2,
+         "nodeName": "HTML",
+         "nodeType": 1,
+         "nodeValue": "",
+         "parentId": 1
+      } ],
+      "documentURL": "data:,",
+      "localName": "",
+      "nodeId": 1,
+      "nodeName": "#document",
+      "nodeType": 9,
+      "nodeValue": "",
+      "xmlVersion": ""
+   }
+}
+[1595584456.353][DEBUG]: DevTools WebSocket Response: Target.setAutoAttach (id=5) 503690452DB1DC6F079D0175A9B66042 {
+
+}
+[1595584456.353][DEBUG]: DevTools WebSocket Response: Page.enable (id=6) 503690452DB1DC6F079D0175A9B66042 {
+
+}
+[1595584456.353][DEBUG]: DevTools WebSocket Response: Page.enable (id=7) 503690452DB1DC6F079D0175A9B66042 {
+
+}
+[1595584456.353][DEBUG]: DevTools WebSocket Command: Runtime.enable (id=8) 503690452DB1DC6F079D0175A9B66042 {
+
+}
+[1595584456.354][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated 503690452DB1DC6F079D0175A9B66042 {
+   "context": {
+      "auxData": {
+         "frameId": "503690452DB1DC6F079D0175A9B66042",
+         "isDefault": true,
+         "type": "default"
+      },
+      "id": 1,
+      "name": "",
+      "origin": "://"
+   }
+}
+[1595584456.354][DEBUG]: DevTools WebSocket Response: Runtime.enable (id=8) 503690452DB1DC6F079D0175A9B66042 {
+
+}
+[1595584456.354][DEBUG]: DevTools WebSocket Command: Page.enable (id=9) 503690452DB1DC6F079D0175A9B66042 {
+
+}
+[1595584456.355][DEBUG]: DevTools WebSocket Response: Page.enable (id=9) 503690452DB1DC6F079D0175A9B66042 {
+
+}
+[1595584456.355][DEBUG]: DevTools WebSocket Command: Runtime.enable (id=10) 503690452DB1DC6F079D0175A9B66042 {
+
+}
+[1595584456.356][DEBUG]: DevTools WebSocket Response: Runtime.enable (id=10) 503690452DB1DC6F079D0175A9B66042 {
+
+}
+[1595584456.356][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=11) 503690452DB1DC6F079D0175A9B66042 {
+   "awaitPromise": true,
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+[1595584456.359][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=11) 503690452DB1DC6F079D0175A9B66042 {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": 1
+      }
+   }
+}
+[1595584456.359][INFO]: [b741df3cf7b3719e6cdc6ee195a39894] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": false,
+      "browserName": "msedge",
+      "browserVersion": "84.0.522.44",
+      "ms:edgeOptions": {
+         "debuggerAddress": "localhost:56216"
+      },
+      "msedge": {
+         "msedgedriverVersion": "84.0.522.44 (bbafc8c0371c0b6da706d469d092209c8f5d25c6)",
+         "userDataDir": "C:\\Users\\hp\\AppData\\Local\\Temp\\scoped_dir10088_2030432116"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "b741df3cf7b3719e6cdc6ee195a39894"
+}
+[1595584456.548][INFO]: [b741df3cf7b3719e6cdc6ee195a39894] COMMAND MaximizeWindow {
+
+}
+[1595584456.548][INFO]: Waiting for pending navigations...
+[1595584456.548][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=12) 503690452DB1DC6F079D0175A9B66042 {
+   "expression": "1"
+}
+[1595584456.549][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=12) 503690452DB1DC6F079D0175A9B66042 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1595584456.549][DEBUG]: DevTools WebSocket Command: DOM.getDocument (id=13) 503690452DB1DC6F079D0175A9B66042 {
+
+}
+[1595584456.550][DEBUG]: DevTools WebSocket Response: DOM.getDocument (id=13) 503690452DB1DC6F079D0175A9B66042 {
+   "root": {
+      "backendNodeId": 2,
+      "baseURL": "data:,",
+      "childNodeCount": 1,
+      "children": [ {
+         "attributes": [  ],
+         "backendNodeId": 4,
+         "childNodeCount": 2,
+         "children": [ {
+            "attributes": [  ],
+            "backendNodeId": 5,
+            "childNodeCount": 0,
+            "localName": "head",
+            "nodeId": 7,
+            "nodeName": "HEAD",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 6
+         }, {
+            "attributes": [  ],
+            "backendNodeId": 3,
+            "childNodeCount": 0,
+            "localName": "body",
+            "nodeId": 8,
+            "nodeName": "BODY",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 6
+         } ],
+         "frameId": "503690452DB1DC6F079D0175A9B66042",
+         "localName": "html",
+         "nodeId": 6,
+         "nodeName": "HTML",
+         "nodeType": 1,
+         "nodeValue": "",
+         "parentId": 5
+      } ],
+      "documentURL": "data:,",
+      "localName": "",
+      "nodeId": 5,
+      "nodeName": "#document",
+      "nodeType": 9,
+      "nodeValue": "",
+      "xmlVersion": ""
+   }
+}
+[1595584456.550][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=14) 503690452DB1DC6F079D0175A9B66042 {
+   "awaitPromise": false,
+   "expression": "document.readyState",
+   "returnByValue": true
+}
+[1595584456.550][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=14) 503690452DB1DC6F079D0175A9B66042 {
+   "result": {
+      "type": "string",
+      "value": "complete"
+   }
+}
+[1595584456.550][INFO]: Done waiting for pending navigations. Status: ok
+[1595584456.551][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1595584458.564][DEBUG]: DevTools WebSocket Command: Browser.getWindowForTarget (id=1) browser {
+   "targetId": "503690452DB1DC6F079D0175A9B66042"
+}
+[1595584458.565][DEBUG]: DevTools WebSocket Response: Browser.getWindowForTarget (id=1) browser {
+   "bounds": {
+      "height": 805,
+      "left": 9,
+      "top": 9,
+      "width": 1051,
+      "windowState": "normal"
+   },
+   "windowId": 1
+}
+[1595584458.565][DEBUG]: DevTools WebSocket Command: Browser.setWindowBounds (id=2) browser {
+   "bounds": {
+      "windowState": "maximized"
+   },
+   "windowId": 1
+}
+[1595584458.590][DEBUG]: DevTools WebSocket Response: Browser.setWindowBounds (id=2) browser {
+
+}
+[1595584458.701][DEBUG]: DevTools WebSocket Command: Browser.getWindowBounds (id=3) browser {
+   "windowId": 1
+}
+[1595584458.702][DEBUG]: DevTools WebSocket Response: Browser.getWindowBounds (id=3) browser {
+   "bounds": {
+      "height": 840,
+      "left": -8,
+      "top": -8,
+      "width": 1552,
+      "windowState": "maximized"
+   }
+}
+[1595584458.702][DEBUG]: DevTools WebSocket Command: Browser.getWindowForTarget (id=4) browser {
+   "targetId": "503690452DB1DC6F079D0175A9B66042"
+}
+[1595584458.702][DEBUG]: DevTools WebSocket Response: Browser.getWindowForTarget (id=4) browser {
+   "bounds": {
+      "height": 840,
+      "left": -8,
+      "top": -8,
+      "width": 1552,
+      "windowState": "maximized"
+   },
+   "windowId": 1
+}
+[1595584458.702][INFO]: Waiting for pending navigations...
+[1595584458.703][DEBUG]: DevTools WebSocket Event: Page.frameResized 503690452DB1DC6F079D0175A9B66042 {
+
+}
+[1595584458.703][DEBUG]: DevTools WebSocket Event: Page.frameResized 503690452DB1DC6F079D0175A9B66042 {
+
+}
+[1595584458.703][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=15) 503690452DB1DC6F079D0175A9B66042 {
+   "expression": "1"
+}
+[1595584458.703][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=15) 503690452DB1DC6F079D0175A9B66042 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1595584458.703][INFO]: Done waiting for pending navigations. Status: ok
+[1595584458.703][INFO]: [b741df3cf7b3719e6cdc6ee195a39894] RESPONSE MaximizeWindow {
+   "height": 840,
+   "width": 1552,
+   "x": -8,
+   "y": -8
+}
+[1595584458.719][INFO]: [b741df3cf7b3719e6cdc6ee195a39894] COMMAND Navigate {
+   "url": "https://www.airbnb.co.in/"
+}
+[1595584458.719][INFO]: Waiting for pending navigations...
+[1595584458.719][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=16) 503690452DB1DC6F079D0175A9B66042 {
+   "expression": "1"
+}
+[1595584458.720][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=16) 503690452DB1DC6F079D0175A9B66042 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1595584458.720][INFO]: Done waiting for pending navigations. Status: ok
+[1595584458.720][DEBUG]: DevTools WebSocket Command: Page.navigate (id=17) 503690452DB1DC6F079D0175A9B66042 {
+   "url": "https://www.airbnb.co.in/"
+}
+[1595584459.560][DEBUG]: DevTools WebSocket Response: Page.navigate (id=17) 503690452DB1DC6F079D0175A9B66042 {
+   "frameId": "503690452DB1DC6F079D0175A9B66042",
+   "loaderId": "2E55DC6EE81422810A0521F42B9EEE2C"
+}
+[1595584459.560][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=18) 503690452DB1DC6F079D0175A9B66042 {
+   "expression": "document.URL"
+}
+[1595584459.563][DEBUG]: DevTools WebSocket Event: Runtime.executionContextsCleared 503690452DB1DC6F079D0175A9B66042 {
+
+}
+[1595584459.565][DEBUG]: DevTools WebSocket Event: Page.frameStartedLoading 503690452DB1DC6F079D0175A9B66042 {
+   "frameId": "503690452DB1DC6F079D0175A9B66042"
+}
+[1595584459.632][DEBUG]: DevTools WebSocket Event: Runtime.executionContextsCleared 503690452DB1DC6F079D0175A9B66042 {
+
+}
+[1595584459.632][DEBUG]: DevTools WebSocket Event: Page.frameNavigated 503690452DB1DC6F079D0175A9B66042 {
+   "frame": {
+      "id": "503690452DB1DC6F079D0175A9B66042",
+      "loaderId": "2E55DC6EE81422810A0521F42B9EEE2C",
+      "mimeType": "text/html",
+      "securityOrigin": "https://www.airbnb.co.in",
+      "url": "https://www.airbnb.co.in/"
+   }
+}
+[1595584459.632][DEBUG]: DevTools WebSocket Event: DOM.documentUpdated 503690452DB1DC6F079D0175A9B66042 {
+
+}
+[1595584459.632][DEBUG]: DevTools WebSocket Command: DOM.getDocument (id=19) 503690452DB1DC6F079D0175A9B66042 {
+
+}
+[1595584459.650][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated 503690452DB1DC6F079D0175A9B66042 {
+   "context": {
+      "auxData": {
+         "frameId": "503690452DB1DC6F079D0175A9B66042",
+         "isDefault": true,
+         "type": "default"
+      },
+      "id": 1,
+      "name": "",
+      "origin": "https://www.airbnb.co.in"
+   }
+}
+[1595584459.651][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=18) 503690452DB1DC6F079D0175A9B66042 {
+   "result": {
+      "type": "string",
+      "value": "https://www.airbnb.co.in/"
+   }
+}
+[1595584459.651][INFO]: Waiting for pending navigations...
+[1595584459.651][DEBUG]: DevTools WebSocket Event: Page.frameResized 503690452DB1DC6F079D0175A9B66042 {
+
+}
+[1595584459.651][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=20) 503690452DB1DC6F079D0175A9B66042 {
+   "expression": "1"
+}
+[1595584459.784][DEBUG]: DevTools WebSocket Response: DOM.getDocument (id=19) 503690452DB1DC6F079D0175A9B66042 {
+   "root": {
+      "backendNodeId": 1,
+      "baseURL": "https://www.airbnb.co.in/",
+      "childNodeCount": 2,
+      "children": [ {
+         "backendNodeId": 2,
+         "localName": "",
+         "nodeId": 2,
+         "nodeName": "html",
+         "nodeType": 10,
+         "nodeValue": "",
+         "parentId": 1,
+         "publicId": "",
+         "systemId": ""
+      }, {
+         "attributes": [ "data-is-hyperloop", "true", "lang", "en-IN", "dir", "ltr", "xmlns:fb", "http://ogp.me/ns/fb#" ],
+         "backendNodeId": 3,
+         "childNodeCount": 2,
+         "children": [ {
+            "attributes": [  ],
+            "backendNodeId": 4,
+            "childNodeCount": 245,
+            "localName": "head",
+            "nodeId": 4,
+            "nodeName": "HEAD",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 3
+         }, {
+            "attributes": [ "class", "with-new-header" ],
+            "backendNodeId": 5,
+            "childNodeCount": 7,
+            "localName": "body",
+            "nodeId": 5,
+            "nodeName": "BODY",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 3
+         } ],
+         "frameId": "503690452DB1DC6F079D0175A9B66042",
+         "localName": "html",
+         "nodeId": 3,
+         "nodeName": "HTML",
+         "nodeType": 1,
+         "nodeValue": "",
+         "parentId": 1
+      } ],
+      "documentURL": "https://www.airbnb.co.in/",
+      "localName": "",
+      "nodeId": 1,
+      "nodeName": "#document",
+      "nodeType": 9,
+      "nodeValue": "",
+      "xmlVersion": ""
+   }
+}
+[1595584459.784][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=20) 503690452DB1DC6F079D0175A9B66042 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1595584459.784][DEBUG]: DevTools WebSocket Command: DOM.getDocument (id=21) 503690452DB1DC6F079D0175A9B66042 {
+
+}
+[1595584459.875][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 503690452DB1DC6F079D0175A9B66042 {
+   "childNodeCount": 8,
+   "nodeId": 5
+}
+[1595584459.875][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 503690452DB1DC6F079D0175A9B66042 {
+   "childNodeCount": 9,
+   "nodeId": 5
+}
+[1595584459.875][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 503690452DB1DC6F079D0175A9B66042 {
+   "childNodeCount": 10,
+   "nodeId": 5
+}
+[1595584459.875][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 503690452DB1DC6F079D0175A9B66042 {
+   "childNodeCount": 11,
+   "nodeId": 5
+}
+[1595584459.875][DEBUG]: DevTools WebSocket Response: DOM.getDocument (id=21) 503690452DB1DC6F079D0175A9B66042 {
+   "root": {
+      "backendNodeId": 1,
+      "baseURL": "https://www.airbnb.co.in/",
+      "childNodeCount": 2,
+      "children": [ {
+         "backendNodeId": 2,
+         "localName": "",
+         "nodeId": 7,
+         "nodeName": "html",
+         "nodeType": 10,
+         "nodeValue": "",
+         "parentId": 6,
+         "publicId": "",
+         "systemId": ""
+      }, {
+         "attributes": [ "data-is-hyperloop", "true", "lang", "en-IN", "dir", "ltr", "xmlns:fb", "http://ogp.me/ns/fb#" ],
+         "backendNodeId": 3,
+         "childNodeCount": 2,
+         "children": [ {
+            "attributes": [  ],
+            "backendNodeId": 4,
+            "childNodeCount": 245,
+            "localName": "head",
+            "nodeId": 9,
+            "nodeName": "HEAD",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 8
+         }, {
+            "attributes": [ "class", "with-new-header" ],
+            "backendNodeId": 5,
+            "childNodeCount": 11,
+            "localName": "body",
+            "nodeId": 10,
+            "nodeName": "BODY",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 8
+         } ],
+         "frameId": "503690452DB1DC6F079D0175A9B66042",
+         "localName": "html",
+         "nodeId": 8,
+         "nodeName": "HTML",
+         "nodeType": 1,
+         "nodeValue": "",
+         "parentId": 6
+      } ],
+      "documentURL": "https://www.airbnb.co.in/",
+      "localName": "",
+      "nodeId": 6,
+      "nodeName": "#document",
+      "nodeType": 9,
+      "nodeValue": "",
+      "xmlVersion": ""
+   }
+}
+[1595584459.875][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=22) 503690452DB1DC6F079D0175A9B66042 {
+   "awaitPromise": false,
+   "expression": "document.readyState",
+   "returnByValue": true
+}
+[1595584459.888][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 503690452DB1DC6F079D0175A9B66042 {
+   "childNodeCount": 12,
+   "nodeId": 10
+}
+[1595584459.888][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 503690452DB1DC6F079D0175A9B66042 {
+   "childNodeCount": 13,
+   "nodeId": 10
+}
+[1595584459.888][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 503690452DB1DC6F079D0175A9B66042 {
+   "childNodeCount": 14,
+   "nodeId": 10
+}
+[1595584459.888][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 503690452DB1DC6F079D0175A9B66042 {
+   "childNodeCount": 15,
+   "nodeId": 10
+}
+[1595584459.888][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 503690452DB1DC6F079D0175A9B66042 {
+   "childNodeCount": 16,
+   "nodeId": 10
+}
+[1595584459.888][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 503690452DB1DC6F079D0175A9B66042 {
+   "childNodeCount": 17,
+   "nodeId": 10
+}
+[1595584459.888][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 503690452DB1DC6F079D0175A9B66042 {
+   "childNodeCount": 18,
+   "nodeId": 10
+}
+[1595584459.890][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=22) 503690452DB1DC6F079D0175A9B66042 {
+   "result": {
+      "type": "string",
+      "value": "interactive"
+   }
+}
+[1595584460.396][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=23) 503690452DB1DC6F079D0175A9B66042 {
+   "expression": "1"
+}
+[1595584460.546][DEBUG]: DevTools WebSocket Event: Page.frameResized 503690452DB1DC6F079D0175A9B66042 {
+
+}
+[1595584460.546][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=23) 503690452DB1DC6F079D0175A9B66042 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1595584460.663][DEBUG]: DevTools WebSocket Event: DOM.attributeModified 503690452DB1DC6F079D0175A9B66042 {
+   "name": "class",
+   "nodeId": 8,
+   "value": "js-focus-visible"
+}
+[1595584460.663][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=24) 503690452DB1DC6F079D0175A9B66042 {
+   "expression": "1"
+}
+[1595584461.255][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 503690452DB1DC6F079D0175A9B66042 {
+   "childNodeCount": 246,
+   "nodeId": 9
+}
+[1595584461.255][DEBUG]: DevTools WebSocket Event: DOM.attributeModified 503690452DB1DC6F079D0175A9B66042 {
+   "name": "class",
+   "nodeId": 10,
+   "value": "with-new-header touch"
+}
+[1595584461.255][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=24) 503690452DB1DC6F079D0175A9B66042 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1595584461.761][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=25) 503690452DB1DC6F079D0175A9B66042 {
+   "expression": "1"
+}
+[1595584462.310][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 503690452DB1DC6F079D0175A9B66042 {
+   "childNodeCount": 247,
+   "nodeId": 9
+}
+[1595584462.310][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 503690452DB1DC6F079D0175A9B66042 {
+   "childNodeCount": 248,
+   "nodeId": 9
+}
+[1595584462.310][DEBUG]: DevTools WebSocket Event: DOM.documentUpdated 503690452DB1DC6F079D0175A9B66042 {
+
+}
+[1595584462.310][DEBUG]: DevTools WebSocket Command: DOM.getDocument (id=26) 503690452DB1DC6F079D0175A9B66042 {
+
+}
+[1595584462.311][DEBUG]: DevTools WebSocket Event: Page.domContentEventFired 503690452DB1DC6F079D0175A9B66042 {
+   "timestamp": 55463.979707
+}
+[1595584462.321][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=25) 503690452DB1DC6F079D0175A9B66042 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1595584462.431][DEBUG]: DevTools WebSocket Response: DOM.getDocument (id=26) 503690452DB1DC6F079D0175A9B66042 {
+   "root": {
+      "backendNodeId": 1,
+      "baseURL": "https://www.airbnb.co.in/",
+      "childNodeCount": 2,
+      "children": [ {
+         "backendNodeId": 2,
+         "localName": "",
+         "nodeId": 12,
+         "nodeName": "html",
+         "nodeType": 10,
+         "nodeValue": "",
+         "parentId": 11,
+         "publicId": "",
+         "systemId": ""
+      }, {
+         "attributes": [ "data-is-hyperloop", "true", "lang", "en-IN", "dir", "ltr", "xmlns:fb", "http://ogp.me/ns/fb#", "class", "js-focus-visible" ],
+         "backendNodeId": 3,
+         "childNodeCount": 2,
+         "children": [ {
+            "attributes": [  ],
+            "backendNodeId": 4,
+            "childNodeCount": 248,
+            "localName": "head",
+            "nodeId": 14,
+            "nodeName": "HEAD",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 13
+         }, {
+            "attributes": [ "class", "with-new-header touch" ],
+            "backendNodeId": 5,
+            "childNodeCount": 18,
+            "localName": "body",
+            "nodeId": 15,
+            "nodeName": "BODY",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 13
+         } ],
+         "frameId": "503690452DB1DC6F079D0175A9B66042",
+         "localName": "html",
+         "nodeId": 13,
+         "nodeName": "HTML",
+         "nodeType": 1,
+         "nodeValue": "",
+         "parentId": 11
+      } ],
+      "documentURL": "https://www.airbnb.co.in/",
+      "localName": "",
+      "nodeId": 11,
+      "nodeName": "#document",
+      "nodeType": 9,
+      "nodeValue": "",
+      "xmlVersion": ""
+   }
+}
+[1595584462.431][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=27) 503690452DB1DC6F079D0175A9B66042 {
+   "expression": "1"
+}
+[1595584462.472][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=27) 503690452DB1DC6F079D0175A9B66042 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1595584462.541][DEBUG]: DevTools WebSocket Event: Log.entryAdded 503690452DB1DC6F079D0175A9B66042 {
+   "entry": {
+      "level": "warning",
+      "source": "other",
+      "text": "Tracking Prevention blocked access to storage for https://ampcid.google.com/v1/publisher:getClientId?key=AIzaSyA65lEHUEizIsNtlbNo-l2K18dT680nsaM.",
+      "timestamp": 1.595584462527414e+12,
+      "url": "https://www.airbnb.co.in/"
+   }
+}
+[1595584462.541][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=28) 503690452DB1DC6F079D0175A9B66042 {
+   "expression": "1"
+}
+[1595584462.541][DEBUG]: DevTools WebSocket Event: Log.entryAdded 503690452DB1DC6F079D0175A9B66042 {
+   "entry": {
+      "level": "warning",
+      "source": "other",
+      "text": "Tracking Prevention blocked access to storage for https://ampcid.google.com/v1/publisher:getClientId?key=AIzaSyA65lEHUEizIsNtlbNo-l2K18dT680nsaM.",
+      "timestamp": 1.595584462528142e+12,
+      "url": "https://www.airbnb.co.in/"
+   }
+}
+[1595584462.541][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 503690452DB1DC6F079D0175A9B66042 {
+   "childNodeCount": 249,
+   "nodeId": 14
+}
+[1595584462.542][DEBUG]: DevTools WebSocket Event: Page.loadEventFired 503690452DB1DC6F079D0175A9B66042 {
+   "timestamp": 55464.224702
+}
+[1595584462.542][DEBUG]: DevTools WebSocket Event: Page.frameStoppedLoading 503690452DB1DC6F079D0175A9B66042 {
+   "frameId": "503690452DB1DC6F079D0175A9B66042"
+}
+[1595584463.112][DEBUG]: DevTools WebSocket Event: Page.navigatedWithinDocument 503690452DB1DC6F079D0175A9B66042 {
+   "frameId": "503690452DB1DC6F079D0175A9B66042",
+   "url": "https://www.airbnb.co.in/"
+}
+[1595584463.113][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 503690452DB1DC6F079D0175A9B66042 {
+   "childNodeCount": 250,
+   "nodeId": 14
+}
+[1595584463.113][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=28) 503690452DB1DC6F079D0175A9B66042 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1595584463.113][INFO]: Done waiting for pending navigations. Status: ok
+[1595584463.113][INFO]: [b741df3cf7b3719e6cdc6ee195a39894] RESPONSE Navigate
+[1595584463.128][INFO]: [b741df3cf7b3719e6cdc6ee195a39894] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//button[@type=\"submit\"]"
+}
+[1595584463.128][DEBUG]: DevTools WebSocket Event: Log.entryAdded 503690452DB1DC6F079D0175A9B66042 {
+   "entry": {
+      "level": "warning",
+      "source": "other",
+      "text": "A cookie associated with a cross-site resource at https://airbnb.co.in/ was set without the `SameSite` attribute. A future release of Microsoft Edge will only deliver cookies with cross-site reques...",
+      "timestamp": 1.595584463102911e+12,
+      "url": "https://www.airbnb.co.in/"
+   }
+}
+[1595584463.128][DEBUG]: DevTools WebSocket Event: Log.entryAdded 503690452DB1DC6F079D0175A9B66042 {
+   "entry": {
+      "level": "warning",
+      "source": "other",
+      "text": "A cookie associated with a cross-site resource at http://airbnb.co.in/ was set without the `SameSite` attribute. A future release of Microsoft Edge will only deliver cookies with cross-site request...",
+      "timestamp": 1.595584463103921e+12,
+      "url": "https://www.airbnb.co.in/"
+   }
+}
+[1595584463.128][DEBUG]: DevTools WebSocket Event: Log.entryAdded 503690452DB1DC6F079D0175A9B66042 {
+   "entry": {
+      "level": "warning",
+      "source": "other",
+      "text": "A cookie associated with a cross-site resource at http://www.airbnb.co.in/ was set without the `SameSite` attribute. A future release of Microsoft Edge will only deliver cookies with cross-site req...",
+      "timestamp": 1.595584463104307e+12,
+      "url": "https://www.airbnb.co.in/"
+   }
+}
+[1595584463.128][INFO]: Waiting for pending navigations...
+[1595584463.128][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=29) 503690452DB1DC6F079D0175A9B66042 {
+   "expression": "1"
+}
+[1595584463.164][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=29) 503690452DB1DC6F079D0175A9B66042 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1595584463.164][INFO]: Done waiting for pending navigations. Status: ok
+[1595584463.167][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=30) 503690452DB1DC6F079D0175A9B66042 {
+   "awaitPromise": true,
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+[1595584463.182][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 503690452DB1DC6F079D0175A9B66042 {
+   "childNodeCount": 251,
+   "nodeId": 14
+}
+[1595584463.182][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 503690452DB1DC6F079D0175A9B66042 {
+   "childNodeCount": 252,
+   "nodeId": 14
+}
+[1595584463.182][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 503690452DB1DC6F079D0175A9B66042 {
+   "childNodeCount": 253,
+   "nodeId": 14
+}
+[1595584463.183][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 503690452DB1DC6F079D0175A9B66042 {
+   "childNodeCount": 254,
+   "nodeId": 14
+}
+[1595584463.183][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 503690452DB1DC6F079D0175A9B66042 {
+   "childNodeCount": 255,
+   "nodeId": 14
+}
+[1595584463.183][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 503690452DB1DC6F079D0175A9B66042 {
+   "childNodeCount": 256,
+   "nodeId": 14
+}
+[1595584463.183][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 503690452DB1DC6F079D0175A9B66042 {
+   "childNodeCount": 257,
+   "nodeId": 14
+}
+[1595584463.183][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 503690452DB1DC6F079D0175A9B66042 {
+   "childNodeCount": 258,
+   "nodeId": 14
+}
+[1595584463.183][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 503690452DB1DC6F079D0175A9B66042 {
+   "childNodeCount": 259,
+   "nodeId": 14
+}
+[1595584463.211][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 503690452DB1DC6F079D0175A9B66042 {
+   "childNodeCount": 260,
+   "nodeId": 14
+}
+[1595584463.211][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 503690452DB1DC6F079D0175A9B66042 {
+   "childNodeCount": 261,
+   "nodeId": 14
+}
+[1595584463.211][DEBUG]: DevTools WebSocket Event: Log.entryAdded 503690452DB1DC6F079D0175A9B66042 {
+   "entry": {
+      "level": "warning",
+      "source": "other",
+      "text": "Tracking Prevention blocked access to storage for https://ampcid.google.co.in/v1/publisher:getClientId?key=AIzaSyA65lEHUEizIsNtlbNo-l2K18dT680nsaM.",
+      "timestamp": 1.595584463198135e+12,
+      "url": "https://www.airbnb.co.in/"
+   }
+}
+[1595584463.211][DEBUG]: DevTools WebSocket Event: Log.entryAdded 503690452DB1DC6F079D0175A9B66042 {
+   "entry": {
+      "level": "warning",
+      "source": "other",
+      "text": "Tracking Prevention blocked access to storage for https://ampcid.google.co.in/v1/publisher:getClientId?key=AIzaSyA65lEHUEizIsNtlbNo-l2K18dT680nsaM.",
+      "timestamp": 1.595584463198253e+12,
+      "url": "https://www.airbnb.co.in/"
+   }
+}
+[1595584463.223][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=30) 503690452DB1DC6F079D0175A9B66042 {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": null
+      }
+   }
+}
+[1595584463.223][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=31) 503690452DB1DC6F079D0175A9B66042 {
+   "expression": "1"
+}
+[1595584463.235][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=31) 503690452DB1DC6F079D0175A9B66042 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1595584463.235][INFO]: Waiting for pending navigations...
+[1595584463.235][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=32) 503690452DB1DC6F079D0175A9B66042 {
+   "expression": "1"
+}
+[1595584463.243][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=32) 503690452DB1DC6F079D0175A9B66042 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1595584463.243][INFO]: Done waiting for pending navigations. Status: ok
+[1595584463.243][INFO]: [b741df3cf7b3719e6cdc6ee195a39894] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//button[@type="submit"]"}
+  (Session info: MicrosoftEdge=84.0.522.44)
+[1595584463.266][INFO]: [b741df3cf7b3719e6cdc6ee195a39894] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//button[@type=\"submit\"]"
+}
+[1595584463.266][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 503690452DB1DC6F079D0175A9B66042 {
+   "childNodeCount": 262,
+   "nodeId": 14
+}
+[1595584463.266][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 503690452DB1DC6F079D0175A9B66042 {
+   "childNodeCount": 263,
+   "nodeId": 14
+}
+[1595584463.267][DEBUG]: DevTools WebSocket Event: Runtime.consoleAPICalled 503690452DB1DC6F079D0175A9B66042 {
+   "args": [ {
+      "type": "string",
+      "value": "AirEvent has been deprecated, please consider using `logJitneyEvent()` method to report Jitney event."
+   } ],
+   "executionContextId": 1,
+   "stackTrace": {
+      "callFrames": [ {
+         "columnNumber": 21319,
+         "functionName": "e",
+         "lineNumber": 0,
+         "scriptId": "31",
+         "url": "https://a0.muscache.com/airbnb/static/packages/bf27-0c7483c2.js"
+      }, {
+         "columnNumber": 21241,
+         "functionName": "e",
+         "lineNumber": 0,
+         "scriptId": "31",
+         "url": "https://a0.muscache.com/airbnb/static/packages/bf27-0c7483c2.js"
+      }, {
+         "columnNumber": 15383,
+         "functionName": "n.sendTrackingRequest",
+         "lineNumber": 0,
+         "scriptId": "31",
+         "url": "https://a0.muscache.com/airbnb/static/packages/bf27-0c7483c2.js"
+      }, {
+         "columnNumber": 14510,
+         "functionName": "",
+         "lineNumber": 0,
+         "scriptId": "31",
+         "url": "https://a0.muscache.com/airbnb/static/packages/bf27-0c7483c2.js"
+      }, {
+         "columnNumber": 14480,
+         "functionName": "n.flushEventQueue",
+         "lineNumber": 0,
+         "scriptId": "31",
+         "url": "https://a0.muscache.com/airbnb/static/packages/bf27-0c7483c2.js"
+      } ]
+   },
+   "timestamp": 1.595584463252923e+12,
+   "type": "warning"
+}
+[1595584463.267][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 503690452DB1DC6F079D0175A9B66042 {
+   "childNodeCount": 264,
+   "nodeId": 14
+}
+[1595584463.267][INFO]: Waiting for pending navigations...
+[1595584463.267][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=33) 503690452DB1DC6F079D0175A9B66042 {
+   "expression": "1"
+}
+[1595584463.280][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=33) 503690452DB1DC6F079D0175A9B66042 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1595584463.280][INFO]: Done waiting for pending navigations. Status: ok
+[1595584463.283][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=34) 503690452DB1DC6F079D0175A9B66042 {
+   "awaitPromise": true,
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+[1595584463.299][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=34) 503690452DB1DC6F079D0175A9B66042 {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": [  ]
+      }
+   }
+}
+[1595584463.300][INFO]: Waiting for pending navigations...
+[1595584463.300][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=35) 503690452DB1DC6F079D0175A9B66042 {
+   "expression": "1"
+}
+[1595584463.300][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=35) 503690452DB1DC6F079D0175A9B66042 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1595584463.301][INFO]: Done waiting for pending navigations. Status: ok
+[1595584463.301][INFO]: [b741df3cf7b3719e6cdc6ee195a39894] RESPONSE FindElements [  ]
+[1595584463.834][INFO]: [b741df3cf7b3719e6cdc6ee195a39894] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//button[@type=\"submit\"]"
+}
+[1595584463.834][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 503690452DB1DC6F079D0175A9B66042 {
+   "childNodeCount": 265,
+   "nodeId": 14
+}
+[1595584463.834][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 503690452DB1DC6F079D0175A9B66042 {
+   "childNodeCount": 266,
+   "nodeId": 14
+}
+[1595584463.834][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 503690452DB1DC6F079D0175A9B66042 {
+   "childNodeCount": 267,
+   "nodeId": 14
+}
+[1595584463.834][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 503690452DB1DC6F079D0175A9B66042 {
+   "childNodeCount": 268,
+   "nodeId": 14
+}
+[1595584463.834][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 503690452DB1DC6F079D0175A9B66042 {
+   "childNodeCount": 269,
+   "nodeId": 14
+}
+[1595584463.834][INFO]: Waiting for pending navigations...
+[1595584463.834][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=36) 503690452DB1DC6F079D0175A9B66042 {
+   "expression": "1"
+}
+[1595584463.938][DEBUG]: DevTools WebSocket Event: Log.entryAdded 503690452DB1DC6F079D0175A9B66042 {
+   "entry": {
+      "level": "warning",
+      "source": "other",
+      "text": "Tracking Prevention blocked access to storage for https://connect.facebook.net/en_GB/sdk.js.",
+      "timestamp": 1.595584463937752e+12,
+      "url": "https://www.airbnb.co.in/"
+   }
+}
+[1595584463.938][DEBUG]: DevTools WebSocket Event: Log.entryAdded 503690452DB1DC6F079D0175A9B66042 {
+   "entry": {
+      "level": "warning",
+      "source": "other",
+      "text": "Tracking Prevention blocked access to storage for https://connect.facebook.net/en_GB/sdk.js.",
+      "timestamp": 1.595584463937846e+12,
+      "url": "https://www.airbnb.co.in/"
+   }
+}
+[1595584463.943][DEBUG]: DevTools WebSocket Event: Log.entryAdded 503690452DB1DC6F079D0175A9B66042 {
+   "entry": {
+      "level": "warning",
+      "source": "other",
+      "text": "Tracking Prevention blocked access to storage for https://stats.g.doubleclick.net/r/collect?t=dc&aip=1&_r=3&v=1&_v=j83&tid=UA-2725447-1&cid=593767136.1595584463&jid=334041079&gjid=16430326&_gid=265...",
+      "timestamp": 1.595584463940137e+12,
+      "url": "https://www.airbnb.co.in/"
+   }
+}
+[1595584463.943][DEBUG]: DevTools WebSocket Event: Log.entryAdded 503690452DB1DC6F079D0175A9B66042 {
+   "entry": {
+      "level": "warning",
+      "source": "other",
+      "text": "Tracking Prevention blocked access to storage for https://stats.g.doubleclick.net/r/collect?t=dc&aip=1&_r=3&v=1&_v=j83&tid=UA-2725447-1&cid=593767136.1595584463&jid=334041079&gjid=16430326&_gid=265...",
+      "timestamp": 1.595584463940667e+12,
+      "url": "https://www.airbnb.co.in/"
+   }
+}
+[1595584463.943][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=36) 503690452DB1DC6F079D0175A9B66042 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1595584463.943][INFO]: Done waiting for pending navigations. Status: ok
+[1595584463.946][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=37) 503690452DB1DC6F079D0175A9B66042 {
+   "awaitPromise": true,
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+[1595584464.071][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 503690452DB1DC6F079D0175A9B66042 {
+   "childNodeCount": 19,
+   "nodeId": 15
+}
+[1595584464.071][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=37) 503690452DB1DC6F079D0175A9B66042 {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": [  ]
+      }
+   }
+}
+[1595584464.071][INFO]: Waiting for pending navigations...
+[1595584464.071][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=38) 503690452DB1DC6F079D0175A9B66042 {
+   "expression": "1"
+}
+[1595584464.186][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 503690452DB1DC6F079D0175A9B66042 {
+   "childNodeCount": 270,
+   "nodeId": 14
+}
+[1595584464.186][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 503690452DB1DC6F079D0175A9B66042 {
+   "childNodeCount": 271,
+   "nodeId": 14
+}
+[1595584464.197][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 503690452DB1DC6F079D0175A9B66042 {
+   "childNodeCount": 272,
+   "nodeId": 14
+}
+[1595584464.212][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=38) 503690452DB1DC6F079D0175A9B66042 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1595584464.212][INFO]: Done waiting for pending navigations. Status: ok
+[1595584464.212][INFO]: [b741df3cf7b3719e6cdc6ee195a39894] RESPONSE FindElements [  ]
+[1595584464.285][INFO]: [b741df3cf7b3719e6cdc6ee195a39894] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//button[@type=\"submit\"]"
+}
+[1595584464.285][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 503690452DB1DC6F079D0175A9B66042 {
+   "childNodeCount": 273,
+   "nodeId": 14
+}
+[1595584464.285][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 503690452DB1DC6F079D0175A9B66042 {
+   "childNodeCount": 274,
+   "nodeId": 14
+}
+[1595584464.285][INFO]: Waiting for pending navigations...
+[1595584464.285][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=39) 503690452DB1DC6F079D0175A9B66042 {
+   "expression": "1"
+}
+[1595584464.637][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 503690452DB1DC6F079D0175A9B66042 {
+   "childNodeCount": 20,
+   "nodeId": 15
+}
+[1595584464.637][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 503690452DB1DC6F079D0175A9B66042 {
+   "childNodeCount": 19,
+   "nodeId": 15
+}
+[1595584464.725][DEBUG]: DevTools WebSocket Event: Log.entryAdded 503690452DB1DC6F079D0175A9B66042 {
+   "entry": {
+      "level": "warning",
+      "source": "other",
+      "text": "Tracking Prevention blocked access to storage for https://www.google.com/ads/ga-audiences?v=1&aip=1&t=sr&_r=4&tid=UA-2725447-1&cid=593767136.1595584463&jid=334041079&_v=j83&z=2108724188.",
+      "timestamp": 1.595584464703068e+12,
+      "url": "https://www.airbnb.co.in/"
+   }
+}
+[1595584464.725][DEBUG]: DevTools WebSocket Event: Log.entryAdded 503690452DB1DC6F079D0175A9B66042 {
+   "entry": {
+      "level": "warning",
+      "source": "other",
+      "text": "Tracking Prevention blocked access to storage for https://www.google.com/ads/ga-audiences?v=1&aip=1&t=sr&_r=4&tid=UA-2725447-1&cid=593767136.1595584463&jid=334041079&_v=j83&z=2108724188.",
+      "timestamp": 1.595584464703542e+12,
+      "url": "https://www.airbnb.co.in/"
+   }
+}
+[1595584464.803][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=39) 503690452DB1DC6F079D0175A9B66042 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1595584464.803][INFO]: Done waiting for pending navigations. Status: ok
+[1595584464.806][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=40) 503690452DB1DC6F079D0175A9B66042 {
+   "awaitPromise": true,
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+[1595584464.853][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 503690452DB1DC6F079D0175A9B66042 {
+   "childNodeCount": 275,
+   "nodeId": 14
+}
+[1595584464.853][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 503690452DB1DC6F079D0175A9B66042 {
+   "childNodeCount": 276,
+   "nodeId": 14
+}
+[1595584464.853][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 503690452DB1DC6F079D0175A9B66042 {
+   "childNodeCount": 277,
+   "nodeId": 14
+}
+[1595584464.887][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 503690452DB1DC6F079D0175A9B66042 {
+   "childNodeCount": 20,
+   "nodeId": 15
+}
+[1595584465.072][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=40) 503690452DB1DC6F079D0175A9B66042 {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": [  ]
+      }
+   }
+}
+[1595584465.073][INFO]: Waiting for pending navigations...
+[1595584465.073][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=41) 503690452DB1DC6F079D0175A9B66042 {
+   "expression": "1"
+}
+[1595584465.171][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 503690452DB1DC6F079D0175A9B66042 {
+   "childNodeCount": 278,
+   "nodeId": 14
+}
+[1595584465.171][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 503690452DB1DC6F079D0175A9B66042 {
+   "childNodeCount": 279,
+   "nodeId": 14
+}
+[1595584465.187][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 503690452DB1DC6F079D0175A9B66042 {
+   "childNodeCount": 280,
+   "nodeId": 14
+}
+[1595584465.187][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 503690452DB1DC6F079D0175A9B66042 {
+   "childNodeCount": 281,
+   "nodeId": 14
+}
+[1595584465.187][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 503690452DB1DC6F079D0175A9B66042 {
+   "childNodeCount": 282,
+   "nodeId": 14
+}
+[1595584465.187][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 503690452DB1DC6F079D0175A9B66042 {
+   "childNodeCount": 283,
+   "nodeId": 14
+}
+[1595584465.298][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 503690452DB1DC6F079D0175A9B66042 {
+   "childNodeCount": 284,
+   "nodeId": 14
+}
+[1595584465.302][DEBUG]: DevTools WebSocket Event: Log.entryAdded 503690452DB1DC6F079D0175A9B66042 {
+   "entry": {
+      "level": "warning",
+      "source": "other",
+      "text": "Tracking Prevention blocked access to storage for https://www.google.co.in/ads/ga-audiences?v=1&aip=1&t=sr&_r=4&tid=UA-2725447-1&cid=593767136.1595584463&jid=334041079&_v=j83&z=2108724188&slf_rd=1&...",
+      "timestamp": 1.59558446529782e+12,
+      "url": "https://www.airbnb.co.in/"
+   }
+}
+[1595584465.302][DEBUG]: DevTools WebSocket Event: Log.entryAdded 503690452DB1DC6F079D0175A9B66042 {
+   "entry": {
+      "level": "warning",
+      "source": "other",
+      "text": "Tracking Prevention blocked access to storage for https://www.google.co.in/ads/ga-audiences?v=1&aip=1&t=sr&_r=4&tid=UA-2725447-1&cid=593767136.1595584463&jid=334041079&_v=j83&z=2108724188&slf_rd=1&...",
+      "timestamp": 1.595584465298052e+12,
+      "url": "https://www.airbnb.co.in/"
+   }
+}
+[1595584465.302][DEBUG]: DevTools WebSocket Event: Log.entryAdded 503690452DB1DC6F079D0175A9B66042 {
+   "entry": {
+      "level": "warning",
+      "source": "other",
+      "text": "Tracking Prevention blocked access to storage for https://www.gstatic.com/recaptcha/releases/r8WWNwsCvXtk22_oRSVCCZx9/recaptcha__en.js.",
+      "timestamp": 1.595584465298363e+12,
+      "url": "https://www.airbnb.co.in/"
+   }
+}
+[1595584465.303][DEBUG]: DevTools WebSocket Event: Log.entryAdded 503690452DB1DC6F079D0175A9B66042 {
+   "entry": {
+      "level": "warning",
+      "source": "other",
+      "text": "Tracking Prevention blocked access to storage for https://www.gstatic.com/recaptcha/releases/r8WWNwsCvXtk22_oRSVCCZx9/recaptcha__en.js.",
+      "timestamp": 1.595584465298429e+12,
+      "url": "https://www.airbnb.co.in/"
+   }
+}
+[1595584465.303][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=41) 503690452DB1DC6F079D0175A9B66042 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1595584465.303][INFO]: Done waiting for pending navigations. Status: ok
+[1595584465.303][INFO]: [b741df3cf7b3719e6cdc6ee195a39894] RESPONSE FindElements [  ]
+[1595584465.319][INFO]: [b741df3cf7b3719e6cdc6ee195a39894] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//button[@type=\"submit\"]"
+}
+[1595584465.319][INFO]: Waiting for pending navigations...
+[1595584465.319][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=42) 503690452DB1DC6F079D0175A9B66042 {
+   "expression": "1"
+}
+[1595584465.523][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 503690452DB1DC6F079D0175A9B66042 {
+   "childNodeCount": 21,
+   "nodeId": 15
+}
+[1595584465.523][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 503690452DB1DC6F079D0175A9B66042 {
+   "childNodeCount": 22,
+   "nodeId": 15
+}
+[1595584465.523][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 503690452DB1DC6F079D0175A9B66042 {
+   "childNodeCount": 23,
+   "nodeId": 15
+}
+[1595584465.523][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 503690452DB1DC6F079D0175A9B66042 {
+   "childNodeCount": 285,
+   "nodeId": 14
+}
+[1595584465.523][DEBUG]: DevTools WebSocket Event: DOM.attributeModified 503690452DB1DC6F079D0175A9B66042 {
+   "name": "data-triggered",
+   "nodeId": 13,
+   "value": "true"
+}
+[1595584465.538][DEBUG]: DevTools WebSocket Event: Log.entryAdded 503690452DB1DC6F079D0175A9B66042 {
+   "entry": {
+      "level": "warning",
+      "source": "other",
+      "text": "Tracking Prevention blocked access to storage for https://www.googleadservices.com/pagead/conversion_async.js.",
+      "timestamp": 1.595584465530287e+12,
+      "url": "https://www.airbnb.co.in/"
+   }
+}
+[1595584465.538][DEBUG]: DevTools WebSocket Event: Log.entryAdded 503690452DB1DC6F079D0175A9B66042 {
+   "entry": {
+      "level": "warning",
+      "source": "other",
+      "text": "Tracking Prevention blocked access to storage for https://www.googleadservices.com/pagead/conversion_async.js.",
+      "timestamp": 1.595584465530615e+12,
+      "url": "https://www.airbnb.co.in/"
+   }
+}
+[1595584465.539][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=42) 503690452DB1DC6F079D0175A9B66042 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1595584465.539][INFO]: Done waiting for pending navigations. Status: ok
+[1595584465.543][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=43) 503690452DB1DC6F079D0175A9B66042 {
+   "awaitPromise": true,
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+[1595584465.573][DEBUG]: DevTools WebSocket Event: Log.entryAdded 503690452DB1DC6F079D0175A9B66042 {
+   "entry": {
+      "level": "warning",
+      "source": "other",
+      "text": "Tracking Prevention blocked access to storage for https://bat.bing.com/bat.js.",
+      "timestamp": 1.595584465557479e+12,
+      "url": "https://www.airbnb.co.in/"
+   }
+}
+[1595584465.574][DEBUG]: DevTools WebSocket Event: Log.entryAdded 503690452DB1DC6F079D0175A9B66042 {
+   "entry": {
+      "level": "warning",
+      "source": "other",
+      "text": "Tracking Prevention blocked access to storage for https://bat.bing.com/bat.js.",
+      "timestamp": 1.595584465557601e+12,
+      "url": "https://www.airbnb.co.in/"
+   }
+}
+[1595584465.574][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=43) 503690452DB1DC6F079D0175A9B66042 {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": [  ]
+      }
+   }
+}
+[1595584465.574][INFO]: Waiting for pending navigations...
+[1595584465.574][DEBUG]: DevTools WebSocket Event: Log.entryAdded 503690452DB1DC6F079D0175A9B66042 {
+   "entry": {
+      "level": "warning",
+      "source": "other",
+      "text": "Tracking Prevention blocked access to storage for https://www.facebook.com/x/oauth/status?client_id=138566025676&input_token&origin=1&redirect_uri=https%3A%2F%2Fwww.airbnb.co.in%2F&sdk=joey&wants_c...",
+      "timestamp": 1.595584465563558e+12,
+      "url": "https://www.airbnb.co.in/"
+   }
+}
+[1595584465.574][DEBUG]: DevTools WebSocket Event: Log.entryAdded 503690452DB1DC6F079D0175A9B66042 {
+   "entry": {
+      "level": "warning",
+      "source": "other",
+      "text": "Tracking Prevention blocked access to storage for https://www.facebook.com/x/oauth/status?client_id=138566025676&input_token&origin=1&redirect_uri=https%3A%2F%2Fwww.airbnb.co.in%2F&sdk=joey&wants_c...",
+      "timestamp": 1.595584465563811e+12,
+      "url": "https://www.airbnb.co.in/"
+   }
+}
+[1595584465.574][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=44) 503690452DB1DC6F079D0175A9B66042 {
+   "expression": "1"
+}
+[1595584466.057][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 503690452DB1DC6F079D0175A9B66042 {
+   "childNodeCount": 24,
+   "nodeId": 15
+}
+[1595584466.057][DEBUG]: DevTools WebSocket Event: Page.frameAttached 503690452DB1DC6F079D0175A9B66042 {
+   "frameId": "344DA09AEF62F8AFFBBA08BCF6925034",
+   "parentFrameId": "503690452DB1DC6F079D0175A9B66042",
+   "stack": {
+      "callFrames": [ {
+         "columnNumber": 163,
+         "functionName": "",
+         "lineNumber": 103,
+         "scriptId": "130",
+         "url": "https://www.gstatic.com/recaptcha/releases/r8WWNwsCvXtk22_oRSVCCZx9/recaptcha__en.js"
+      }, {
+         "columnNumber": 169,
+         "functionName": "iR.render",
+         "lineNumber": 659,
+         "scriptId": "130",
+         "url": "https://www.gstatic.com/recaptcha/releases/r8WWNwsCvXtk22_oRSVCCZx9/recaptcha__en.js"
+      }, {
+         "columnNumber": 493,
+         "functionName": "",
+         "lineNumber": 279,
+         "scriptId": "130",
+         "url": "https://www.gstatic.com/recaptcha/releases/r8WWNwsCvXtk22_oRSVCCZx9/recaptcha__en.js"
+      }, {
+         "columnNumber": 253,
+         "functionName": "",
+         "lineNumber": 82,
+         "scriptId": "130",
+         "url": "https://www.gstatic.com/recaptcha/releases/r8WWNwsCvXtk22_oRSVCCZx9/recaptcha__en.js"
+      }, {
+         "columnNumber": 484,
+         "functionName": "",
+         "lineNumber": 326,
+         "scriptId": "130",
+         "url": "https://www.gstatic.com/recaptcha/releases/r8WWNwsCvXtk22_oRSVCCZx9/recaptcha__en.js"
+      }, {
+         "columnNumber": 321,
+         "functionName": "Hf",
+         "lineNumber": 444,
+         "scriptId": "130",
+         "url": "https://www.gstatic.com/recaptcha/releases/r8WWNwsCvXtk22_oRSVCCZx9/recaptcha__en.js"
+      }, {
+         "columnNumber": 6,
+         "functionName": "",
+         "lineNumber": 286,
+         "scriptId": "130",
+         "url": "https://www.gstatic.com/recaptcha/releases/r8WWNwsCvXtk22_oRSVCCZx9/recaptcha__en.js"
+      }, {
+         "columnNumber": 46,
+         "functionName": "",
+         "lineNumber": 77,
+         "scriptId": "130",
+         "url": "https://www.gstatic.com/recaptcha/releases/r8WWNwsCvXtk22_oRSVCCZx9/recaptcha__en.js"
+      }, {
+         "columnNumber": 492,
+         "functionName": "",
+         "lineNumber": 248,
+         "scriptId": "130",
+         "url": "https://www.gstatic.com/recaptcha/releases/r8WWNwsCvXtk22_oRSVCCZx9/recaptcha__en.js"
+      }, {
+         "columnNumber": 348,
+         "functionName": "",
+         "lineNumber": 270,
+         "scriptId": "130",
+         "url": "https://www.gstatic.com/recaptcha/releases/r8WWNwsCvXtk22_oRSVCCZx9/recaptcha__en.js"
+      }, {
+         "columnNumber": 448,
+         "functionName": "",
+         "lineNumber": 248,
+         "scriptId": "130",
+         "url": "https://www.gstatic.com/recaptcha/releases/r8WWNwsCvXtk22_oRSVCCZx9/recaptcha__en.js"
+      }, {
+         "columnNumber": 88,
+         "functionName": "",
+         "lineNumber": 667,
+         "scriptId": "130",
+         "url": "https://www.gstatic.com/recaptcha/releases/r8WWNwsCvXtk22_oRSVCCZx9/recaptcha__en.js"
+      }, {
+         "columnNumber": 3,
+         "functionName": "",
+         "lineNumber": 678,
+         "scriptId": "130",
+         "url": "https://www.gstatic.com/recaptcha/releases/r8WWNwsCvXtk22_oRSVCCZx9/recaptcha__en.js"
+      } ]
+   }
+}
+[1595584466.060][DEBUG]: DevTools WebSocket Event: Page.frameStartedLoading 503690452DB1DC6F079D0175A9B66042 {
+   "frameId": "344DA09AEF62F8AFFBBA08BCF6925034"
+}
+[1595584466.076][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=44) 503690452DB1DC6F079D0175A9B66042 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1595584466.076][INFO]: Done waiting for pending navigations. Status: ok
+[1595584466.076][INFO]: [b741df3cf7b3719e6cdc6ee195a39894] RESPONSE FindElements [  ]
+[1595584466.115][INFO]: [b741df3cf7b3719e6cdc6ee195a39894] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//button[@type=\"submit\"]"
+}
+[1595584466.115][DEBUG]: DevTools WebSocket Event: Log.entryAdded 503690452DB1DC6F079D0175A9B66042 {
+   "entry": {
+      "level": "warning",
+      "source": "other",
+      "text": "Tracking Prevention blocked access to storage for https://bat.bing.com/bat.js.",
+      "timestamp": 1.595584466092617e+12,
+      "url": "https://www.airbnb.co.in/"
+   }
+}
+[1595584466.115][DEBUG]: DevTools WebSocket Event: Log.entryAdded 503690452DB1DC6F079D0175A9B66042 {
+   "entry": {
+      "level": "warning",
+      "source": "other",
+      "text": "Tracking Prevention blocked access to storage for https://bat.bing.com/bat.js.",
+      "timestamp": 1.595584466092719e+12,
+      "url": "https://www.airbnb.co.in/"
+   }
+}
+[1595584466.115][DEBUG]: DevTools WebSocket Event: Log.entryAdded 503690452DB1DC6F079D0175A9B66042 {
+   "entry": {
+      "level": "warning",
+      "source": "other",
+      "text": "Tracking Prevention blocked access to storage for https://bat.bing.com/bat.js.",
+      "timestamp": 1.595584466093379e+12,
+      "url": "https://www.airbnb.co.in/"
+   }
+}
+[1595584466.115][DEBUG]: DevTools WebSocket Event: Log.entryAdded 503690452DB1DC6F079D0175A9B66042 {
+   "entry": {
+      "level": "warning",
+      "source": "other",
+      "text": "A cookie associated with a cross-site resource at http://yahoo.com/ was set without the `SameSite` attribute. A future release of Microsoft Edge will only deliver cookies with cross-site requests i...",
+      "timestamp": 1.5955844660941492e+12,
+      "url": "https://www.airbnb.co.in/"
+   }
+}
+[1595584466.115][INFO]: Waiting for pending navigations...
+[1595584466.115][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=45) 503690452DB1DC6F079D0175A9B66042 {
+   "expression": "1"
+}
+[1595584466.178][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 503690452DB1DC6F079D0175A9B66042 {
+   "childNodeCount": 286,
+   "nodeId": 14
+}
+[1595584466.178][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 503690452DB1DC6F079D0175A9B66042 {
+   "childNodeCount": 287,
+   "nodeId": 14
+}
+[1595584466.179][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 503690452DB1DC6F079D0175A9B66042 {
+   "childNodeCount": 288,
+   "nodeId": 14
+}
+[1595584466.180][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 503690452DB1DC6F079D0175A9B66042 {
+   "childNodeCount": 289,
+   "nodeId": 14
+}
+[1595584466.211][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 503690452DB1DC6F079D0175A9B66042 {
+   "childNodeCount": 290,
+   "nodeId": 14
+}
+[1595584466.211][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 503690452DB1DC6F079D0175A9B66042 {
+   "childNodeCount": 25,
+   "nodeId": 15
+}
+[1595584466.211][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=45) 503690452DB1DC6F079D0175A9B66042 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1595584466.211][INFO]: Done waiting for pending navigations. Status: ok
+[1595584466.213][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=46) 503690452DB1DC6F079D0175A9B66042 {
+   "awaitPromise": true,
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+[1595584466.214][DEBUG]: DevTools WebSocket Event: Log.entryAdded 503690452DB1DC6F079D0175A9B66042 {
+   "entry": {
+      "level": "warning",
+      "source": "other",
+      "text": "Tracking Prevention blocked access to storage for https://bat.bing.com/action/0?ti=5187185&Ver=2&mid=244f56a0-62dc-9dc6-17d5-73e1b20688b0&sid=c8ad0c8adf39044f0fb9a7513f6a66c4&vid=0c0924f474fac7935c...",
+      "timestamp": 1.595584466203588e+12,
+      "url": "https://www.airbnb.co.in/"
+   }
+}
+[1595584466.214][DEBUG]: DevTools WebSocket Event: Log.entryAdded 503690452DB1DC6F079D0175A9B66042 {
+   "entry": {
+      "level": "warning",
+      "source": "other",
+      "text": "Tracking Prevention blocked access to storage for https://bat.bing.com/action/0?ti=5187185&Ver=2&mid=244f56a0-62dc-9dc6-17d5-73e1b20688b0&sid=c8ad0c8adf39044f0fb9a7513f6a66c4&vid=0c0924f474fac7935c...",
+      "timestamp": 1.595584466203704e+12,
+      "url": "https://www.airbnb.co.in/"
+   }
+}
+[1595584466.231][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=46) 503690452DB1DC6F079D0175A9B66042 {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": [  ]
+      }
+   }
+}
+[1595584466.232][INFO]: Waiting for pending navigations...
+[1595584466.232][DEBUG]: DevTools WebSocket Event: Log.entryAdded 503690452DB1DC6F079D0175A9B66042 {
+   "entry": {
+      "level": "warning",
+      "source": "other",
+      "text": "Tracking Prevention blocked access to storage for https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1049231994/?random=1595584466145&cv=9&fst=1595584466145&num=1&label=PRowCPiEiQQQ-o...",
+      "timestamp": 1.595584466230529e+12,
+      "url": "https://www.airbnb.co.in/"
+   }
+}
+[1595584466.232][DEBUG]: DevTools WebSocket Event: Log.entryAdded 503690452DB1DC6F079D0175A9B66042 {
+   "entry": {
+      "level": "warning",
+      "source": "other",
+      "text": "Tracking Prevention blocked access to storage for https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1049231994/?random=1595584466145&cv=9&fst=1595584466145&num=1&label=PRowCPiEiQQQ-o...",
+      "timestamp": 1.595584466230756e+12,
+      "url": "https://www.airbnb.co.in/"
+   }
+}
+[1595584466.232][DEBUG]: DevTools WebSocket Event: Log.entryAdded 503690452DB1DC6F079D0175A9B66042 {
+   "entry": {
+      "level": "warning",
+      "source": "other",
+      "text": "Tracking Prevention blocked access to storage for https://googleads.g.doubleclick.net/pagead/viewthroughconversion/810932538/?random=1595584466166&cv=9&fst=1595584466166&num=1&guid=ON&resp=GooglemK...",
+      "timestamp": 1.595584466230959e+12,
+      "url": "https://www.airbnb.co.in/"
+   }
+}
+[1595584466.232][DEBUG]: DevTools WebSocket Event: Log.entryAdded 503690452DB1DC6F079D0175A9B66042 {
+   "entry": {
+      "level": "warning",
+      "source": "other",
+      "text": "Tracking Prevention blocked access to storage for https://googleads.g.doubleclick.net/pagead/viewthroughconversion/810932538/?random=1595584466166&cv=9&fst=1595584466166&num=1&guid=ON&resp=GooglemK...",
+      "timestamp": 1.595584466231199e+12,
+      "url": "https://www.airbnb.co.in/"
+   }
+}
+[1595584466.233][DEBUG]: DevTools WebSocket Event: Log.entryAdded 503690452DB1DC6F079D0175A9B66042 {
+   "entry": {
+      "level": "warning",
+      "source": "other",
+      "text": "Tracking Prevention blocked access to storage for https://googleads.g.doubleclick.net/pagead/viewthroughconversion/930245403/?random=1595584466170&cv=9&fst=1595584466170&num=1&label=rOTLCKSrxGQQm9b...",
+      "timestamp": 1.595584466231833e+12,
+      "url": "https://www.airbnb.co.in/"
+   }
+}
+[1595584466.233][DEBUG]: DevTools WebSocket Event: Log.entryAdded 503690452DB1DC6F079D0175A9B66042 {
+   "entry": {
+      "level": "warning",
+      "source": "other",
+      "text": "Tracking Prevention blocked access to storage for https://googleads.g.doubleclick.net/pagead/viewthroughconversion/930245403/?random=1595584466170&cv=9&fst=1595584466170&num=1&label=rOTLCKSrxGQQm9b...",
+      "timestamp": 1.595584466231954e+12,
+      "url": "https://www.airbnb.co.in/"
+   }
+}
+[1595584466.233][DEBUG]: DevTools WebSocket Event: Log.entryAdded 503690452DB1DC6F079D0175A9B66042 {
+   "entry": {
+      "level": "warning",
+      "source": "other",
+      "text": "Tracking Prevention blocked access to storage for https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1023009977/?random=1595584466174&cv=9&fst=1595584466174&num=1&guid=ON&resp=Googlem...",
+      "timestamp": 1.595584466232107e+12,
+      "url": "https://www.airbnb.co.in/"
+   }
+}
+[1595584466.233][DEBUG]: DevTools WebSocket Event: Log.entryAdded 503690452DB1DC6F079D0175A9B66042 {
+   "entry": {
+      "level": "warning",
+      "source": "other",
+      "text": "Tracking Prevention blocked access to storage for https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1023009977/?random=1595584466174&cv=9&fst=1595584466174&num=1&guid=ON&resp=Googlem...",
+      "timestamp": 1.59558446623232e+12,
+      "url": "https://www.airbnb.co.in/"
+   }
+}
+[1595584466.234][DEBUG]: DevTools WebSocket Event: Log.entryAdded 503690452DB1DC6F079D0175A9B66042 {
+   "entry": {
+      "level": "warning",
+      "source": "other",
+      "text": "Tracking Prevention blocked access to storage for https://googleads.g.doubleclick.net/pagead/viewthroughconversion/821164191/?random=1595584466177&cv=9&fst=1595584466177&num=1&guid=ON&resp=GooglemK...",
+      "timestamp": 1.595584466232439e+12,
+      "url": "https://www.airbnb.co.in/"
+   }
+}
+[1595584466.234][DEBUG]: DevTools WebSocket Event: Log.entryAdded 503690452DB1DC6F079D0175A9B66042 {
+   "entry": {
+      "level": "warning",
+      "source": "other",
+      "text": "Tracking Prevention blocked access to storage for https://googleads.g.doubleclick.net/pagead/viewthroughconversion/821164191/?random=1595584466177&cv=9&fst=1595584466177&num=1&guid=ON&resp=GooglemK...",
+      "timestamp": 1.595584466232542e+12,
+      "url": "https://www.airbnb.co.in/"
+   }
+}
+[1595584466.234][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=47) 503690452DB1DC6F079D0175A9B66042 {
+   "expression": "1"
+}
+[1595584466.237][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=47) 503690452DB1DC6F079D0175A9B66042 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1595584466.237][INFO]: Done waiting for pending navigations. Status: ok
+[1595584466.237][INFO]: [b741df3cf7b3719e6cdc6ee195a39894] RESPONSE FindElements [  ]
+[1595584466.270][INFO]: [b741df3cf7b3719e6cdc6ee195a39894] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//button[@type=\"submit\"]"
+}
+[1595584466.270][DEBUG]: DevTools WebSocket Event: Runtime.consoleAPICalled 503690452DB1DC6F079D0175A9B66042 {
+   "args": [ {
+      "type": "string",
+      "value": "AirEvent has been deprecated, please consider using `logJitneyEvent()` method to report Jitney event."
+   } ],
+   "executionContextId": 1,
+   "stackTrace": {
+      "callFrames": [ {
+         "columnNumber": 21319,
+         "functionName": "e",
+         "lineNumber": 0,
+         "scriptId": "31",
+         "url": "https://a0.muscache.com/airbnb/static/packages/bf27-0c7483c2.js"
+      }, {
+         "columnNumber": 21241,
+         "functionName": "e",
+         "lineNumber": 0,
+         "scriptId": "31",
+         "url": "https://a0.muscache.com/airbnb/static/packages/bf27-0c7483c2.js"
+      }, {
+         "columnNumber": 15383,
+         "functionName": "n.sendTrackingRequest",
+         "lineNumber": 0,
+         "scriptId": "31",
+         "url": "https://a0.muscache.com/airbnb/static/packages/bf27-0c7483c2.js"
+      }, {
+         "columnNumber": 14510,
+         "functionName": "",
+         "lineNumber": 0,
+         "scriptId": "31",
+         "url": "https://a0.muscache.com/airbnb/static/packages/bf27-0c7483c2.js"
+      }, {
+         "columnNumber": 14480,
+         "functionName": "n.flushEventQueue",
+         "lineNumber": 0,
+         "scriptId": "31",
+         "url": "https://a0.muscache.com/airbnb/static/packages/bf27-0c7483c2.js"
+      } ]
+   },
+   "timestamp": 1.5955844662404211e+12,
+   "type": "warning"
+}
+[1595584466.270][INFO]: Waiting for pending navigations...
+[1595584466.270][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=48) 503690452DB1DC6F079D0175A9B66042 {
+   "expression": "1"
+}
+[1595584466.364][DEBUG]: DevTools WebSocket Event: Target.attachedToTarget 503690452DB1DC6F079D0175A9B66042 {
+   "sessionId": "D4D8FF68964C87CFD53F23A0C486057C",
+   "targetInfo": {
+      "attached": true,
+      "browserContextId": "0737C938BAE6E8B2AAF5FFC74588EB7C",
+      "targetId": "344DA09AEF62F8AFFBBA08BCF6925034",
+      "title": "",
+      "type": "iframe",
+      "url": ""
+   },
+   "waitingForDebugger": false
+}
+[1595584466.364][DEBUG]: DevTools WebSocket Command: Page.addScriptToEvaluateOnNewDocument (id=1) D4D8FF68964C87CFD53F23A0C486057C {
+   "source": "(function () {window.cdc_adoQpoasnfa76pfcZLmcfl_Array = window.Array;window.cdc_adoQpoasnfa76pfcZLmcfl_Promise = window.Promise;window.cdc_adoQpoasnfa76pfcZLmcfl_Symbol = window.Symbol;}) ();"
+}
+[1595584466.385][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=2) D4D8FF68964C87CFD53F23A0C486057C {
+   "expression": "(function () {window.cdc_adoQpoasnfa76pfcZLmcfl_Array = window.Array;window.cdc_adoQpoasnfa76pfcZLmcfl_Promise = window.Promise;window.cdc_adoQpoasnfa76pfcZLmcfl_Symbol = window.Symbol;}) ();"
+}
+[1595584466.385][DEBUG]: DevTools WebSocket Command: DOM.getDocument (id=3) D4D8FF68964C87CFD53F23A0C486057C {
+
+}
+[1595584466.386][DEBUG]: DevTools WebSocket Command: Target.setAutoAttach (id=4) D4D8FF68964C87CFD53F23A0C486057C {
+   "autoAttach": true,
+   "flatten": true,
+   "waitForDebuggerOnStart": false
+}
+[1595584466.386][DEBUG]: DevTools WebSocket Command: Page.enable (id=5) D4D8FF68964C87CFD53F23A0C486057C {
+
+}
+[1595584466.386][DEBUG]: DevTools WebSocket Command: Page.enable (id=49) 503690452DB1DC6F079D0175A9B66042 {
+
+}
+[1595584466.504][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=48) 503690452DB1DC6F079D0175A9B66042 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1595584466.504][DEBUG]: DevTools WebSocket Event: Log.entryAdded 503690452DB1DC6F079D0175A9B66042 {
+   "entry": {
+      "level": "warning",
+      "source": "other",
+      "text": "Tracking Prevention blocked access to storage for https://bat.bing.com/action/0?ti=5187185&Ver=2&mid=244f56a0-62dc-9dc6-17d5-73e1b20688b0&sid=c8ad0c8adf39044f0fb9a7513f6a66c4&vid=0c0924f474fac7935c...",
+      "timestamp": 1.595584466442908e+12,
+      "url": "https://www.airbnb.co.in/"
+   }
+}
+[1595584466.504][DEBUG]: DevTools WebSocket Event: Log.entryAdded 503690452DB1DC6F079D0175A9B66042 {
+   "entry": {
+      "level": "warning",
+      "source": "other",
+      "text": "Tracking Prevention blocked access to storage for https://bat.bing.com/action/0?ti=5187185&Ver=2&mid=244f56a0-62dc-9dc6-17d5-73e1b20688b0&sid=c8ad0c8adf39044f0fb9a7513f6a66c4&vid=0c0924f474fac7935c...",
+      "timestamp": 1.5955844664544512e+12,
+      "url": "https://www.airbnb.co.in/"
+   }
+}
+[1595584466.504][DEBUG]: DevTools WebSocket Event: Log.entryAdded 503690452DB1DC6F079D0175A9B66042 {
+   "entry": {
+      "level": "warning",
+      "source": "other",
+      "text": "Tracking Prevention blocked access to storage for https://bat.bing.com/action/0?ti=5187185&Ver=2&mid=244f56a0-62dc-9dc6-17d5-73e1b20688b0&sid=c8ad0c8adf39044f0fb9a7513f6a66c4&vid=0c0924f474fac7935c...",
+      "timestamp": 1.595584466454749e+12,
+      "url": "https://www.airbnb.co.in/"
+   }
+}
+[1595584466.504][DEBUG]: DevTools WebSocket Response: Page.enable (id=49) 503690452DB1DC6F079D0175A9B66042 {
+
+}
+[1595584466.684][DEBUG]: DevTools WebSocket Response: Page.addScriptToEvaluateOnNewDocument (id=1) D4D8FF68964C87CFD53F23A0C486057C {
+   "identifier": "1"
+}
+[1595584466.684][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=2) D4D8FF68964C87CFD53F23A0C486057C {
+   "result": {
+      "type": "undefined"
+   }
+}
+[1595584466.684][DEBUG]: DevTools WebSocket Response: DOM.getDocument (id=3) D4D8FF68964C87CFD53F23A0C486057C {
+   "root": {
+      "backendNodeId": 1,
+      "baseURL": "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6LflNKsUAAAAAJZAn48kK7mF-KMioLD3aLZm0thD&co=aHR0cHM6Ly93d3cuYWlyYm5iLmNvLmluOjQ0Mw..&hl=en&v=r8WWNwsCvXtk22_oRSVCCZx9&size=invisible&cb=oboxtcs9sqo3",
+      "childNodeCount": 0,
+      "children": [  ],
+      "documentURL": "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6LflNKsUAAAAAJZAn48kK7mF-KMioLD3aLZm0thD&co=aHR0cHM6Ly93d3cuYWlyYm5iLmNvLmluOjQ0Mw..&hl=en&v=r8WWNwsCvXtk22_oRSVCCZx9&size=invisible&cb=oboxtcs9sqo3",
+      "localName": "",
+      "nodeId": 1,
+      "nodeName": "#document",
+      "nodeType": 9,
+      "nodeValue": "",
+      "xmlVersion": ""
+   }
+}
+[1595584466.684][DEBUG]: DevTools WebSocket Response: Target.setAutoAttach (id=4) D4D8FF68964C87CFD53F23A0C486057C {
+
+}
+[1595584466.684][DEBUG]: DevTools WebSocket Response: Page.enable (id=5) D4D8FF68964C87CFD53F23A0C486057C {
+
+}
+[1595584466.684][DEBUG]: DevTools WebSocket Command: Runtime.enable (id=6) D4D8FF68964C87CFD53F23A0C486057C {
+
+}
+[1595584466.684][DEBUG]: DevTools WebSocket Event: DOM.childNodeInserted D4D8FF68964C87CFD53F23A0C486057C {
+   "node": {
+      "backendNodeId": 2,
+      "localName": "",
+      "nodeId": 2,
+      "nodeName": "html",
+      "nodeType": 10,
+      "nodeValue": "",
+      "publicId": "",
+      "systemId": ""
+   },
+   "parentNodeId": 1,
+   "previousNodeId": 0
+}
+[1595584466.684][DEBUG]: DevTools WebSocket Event: DOM.childNodeInserted D4D8FF68964C87CFD53F23A0C486057C {
+   "node": {
+      "attributes": [ "dir", "ltr", "lang", "en" ],
+      "backendNodeId": 3,
+      "childNodeCount": 0,
+      "frameId": "344DA09AEF62F8AFFBBA08BCF6925034",
+      "localName": "html",
+      "nodeId": 3,
+      "nodeName": "HTML",
+      "nodeType": 1,
+      "nodeValue": ""
+   },
+   "parentNodeId": 1,
+   "previousNodeId": 2
+}
+[1595584466.685][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated D4D8FF68964C87CFD53F23A0C486057C {
+   "childNodeCount": 1,
+   "nodeId": 3
+}
+[1595584466.685][DEBUG]: DevTools WebSocket Event: Log.entryAdded 503690452DB1DC6F079D0175A9B66042 {
+   "entry": {
+      "level": "warning",
+      "source": "other",
+      "text": "Tracking Prevention blocked access to storage for https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1049231994/?random=1595584466145&cv=9&fst=1595584466145&num=1&label=PRowCPiEiQQQ-o...",
+      "timestamp": 1.595584466665135e+12,
+      "url": "https://www.airbnb.co.in/"
+   }
+}
+[1595584466.685][DEBUG]: DevTools WebSocket Event: Log.entryAdded 503690452DB1DC6F079D0175A9B66042 {
+   "entry": {
+      "level": "warning",
+      "source": "other",
+      "text": "Tracking Prevention blocked access to storage for https://googleads.g.doubleclick.net/pagead/viewthroughconversion/930245403/?random=1595584466170&cv=9&fst=1595584466170&num=1&label=rOTLCKSrxGQQm9b...",
+      "timestamp": 1.595584466665334e+12,
+      "url": "https://www.airbnb.co.in/"
+   }
+}
+[1595584466.685][DEBUG]: DevTools WebSocket Event: Log.entryAdded 503690452DB1DC6F079D0175A9B66042 {
+   "entry": {
+      "level": "warning",
+      "source": "other",
+      "text": "Tracking Prevention blocked access to storage for https://googleads.g.doubleclick.net/pagead/viewthroughconversion/810932538/?random=1595584466166&cv=9&fst=1595584466166&num=1&guid=ON&resp=GooglemK...",
+      "timestamp": 1.595584466665637e+12,
+      "url": "https://www.airbnb.co.in/"
+   }
+}
+[1595584466.685][DEBUG]: DevTools WebSocket Event: Log.entryAdded 503690452DB1DC6F079D0175A9B66042 {
+   "entry": {
+      "level": "warning",
+      "source": "other",
+      "text": "Tracking Prevention blocked access to storage for https://googleads.g.doubleclick.net/pagead/viewthroughconversion/821164191/?random=1595584466177&cv=9&fst=1595584466177&num=1&guid=ON&resp=GooglemK...",
+      "timestamp": 1.59558446666681e+12,
+      "url": "https://www.airbnb.co.in/"
+   }
+}
+[1595584466.685][DEBUG]: DevTools WebSocket Event: Log.entryAdded 503690452DB1DC6F079D0175A9B66042 {
+   "entry": {
+      "level": "warning",
+      "source": "other",
+      "text": "Tracking Prevention blocked access to storage for https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1023009977/?random=1595584466174&cv=9&fst=1595584466174&num=1&guid=ON&resp=Googlem...",
+      "timestamp": 1.595584466667155e+12,
+      "url": "https://www.airbnb.co.in/"
+   }
+}
+[1595584466.685][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated D4D8FF68964C87CFD53F23A0C486057C {
+   "context": {
+      "auxData": {
+         "frameId": "344DA09AEF62F8AFFBBA08BCF6925034",
+         "isDefault": true,
+         "type": "default"
+      },
+      "id": 1,
+      "name": "",
+      "origin": "https://www.google.com"
+   }
+}
+[1595584466.686][DEBUG]: DevTools WebSocket Response: Runtime.enable (id=6) D4D8FF68964C87CFD53F23A0C486057C {
+
+}
+[1595584466.686][DEBUG]: DevTools WebSocket Command: Page.enable (id=7) D4D8FF68964C87CFD53F23A0C486057C {
+
+}
+[1595584466.686][DEBUG]: DevTools WebSocket Response: Page.enable (id=7) D4D8FF68964C87CFD53F23A0C486057C {
+
+}
+[1595584466.686][DEBUG]: DevTools WebSocket Command: DOM.getDocument (id=50) 503690452DB1DC6F079D0175A9B66042 {
+
+}
+[1595584466.736][DEBUG]: DevTools WebSocket Event: Page.frameStoppedLoading 503690452DB1DC6F079D0175A9B66042 {
+   "frameId": "344DA09AEF62F8AFFBBA08BCF6925034"
+}
+[1595584466.736][DEBUG]: DevTools WebSocket Event: Page.frameDetached 503690452DB1DC6F079D0175A9B66042 {
+   "frameId": "344DA09AEF62F8AFFBBA08BCF6925034"
+}
+[1595584466.736][DEBUG]: DevTools WebSocket Event: Log.entryAdded 503690452DB1DC6F079D0175A9B66042 {
+   "entry": {
+      "level": "warning",
+      "source": "other",
+      "text": "Tracking Prevention blocked access to storage for https://www.gstatic.com/recaptcha/releases/r8WWNwsCvXtk22_oRSVCCZx9/styles__ltr.css.",
+      "timestamp": 1.5955844667308071e+12,
+      "url": "https://www.airbnb.co.in/"
+   }
+}
+[1595584466.736][DEBUG]: DevTools WebSocket Event: Log.entryAdded 503690452DB1DC6F079D0175A9B66042 {
+   "entry": {
+      "level": "warning",
+      "source": "other",
+      "text": "Tracking Prevention blocked access to storage for https://www.gstatic.com/recaptcha/releases/r8WWNwsCvXtk22_oRSVCCZx9/styles__ltr.css.",
+      "timestamp": 1.595584466731114e+12,
+      "url": "https://www.airbnb.co.in/"
+   }
+}
+[1595584466.737][DEBUG]: DevTools WebSocket Event: Log.entryAdded 503690452DB1DC6F079D0175A9B66042 {
+   "entry": {
+      "level": "warning",
+      "source": "other",
+      "text": "Tracking Prevention blocked access to storage for https://www.gstatic.com/recaptcha/releases/r8WWNwsCvXtk22_oRSVCCZx9/recaptcha__en.js.",
+      "timestamp": 1.5955844667313298e+12,
+      "url": "https://www.airbnb.co.in/"
+   }
+}
+[1595584466.737][DEBUG]: DevTools WebSocket Event: Log.entryAdded 503690452DB1DC6F079D0175A9B66042 {
+   "entry": {
+      "level": "warning",
+      "source": "other",
+      "text": "Tracking Prevention blocked access to storage for https://www.gstatic.com/recaptcha/releases/r8WWNwsCvXtk22_oRSVCCZx9/recaptcha__en.js.",
+      "timestamp": 1.595584466731442e+12,
+      "url": "https://www.airbnb.co.in/"
+   }
+}
+[1595584466.737][DEBUG]: DevTools WebSocket Response: DOM.getDocument (id=50) 503690452DB1DC6F079D0175A9B66042 {
+   "root": {
+      "backendNodeId": 1,
+      "baseURL": "https://www.airbnb.co.in/",
+      "childNodeCount": 2,
+      "children": [ {
+         "backendNodeId": 2,
+         "localName": "",
+         "nodeId": 17,
+         "nodeName": "html",
+         "nodeType": 10,
+         "nodeValue": "",
+         "parentId": 16,
+         "publicId": "",
+         "systemId": ""
+      }, {
+         "attributes": [ "data-is-hyperloop", "true", "lang", "en-IN", "dir", "ltr", "xmlns:fb", "http://ogp.me/ns/fb#", "class", "js-focus-visible", "data-triggered", "true" ],
+         "backendNodeId": 3,
+         "childNodeCount": 2,
+         "children": [ {
+            "attributes": [  ],
+            "backendNodeId": 4,
+            "childNodeCount": 290,
+            "localName": "head",
+            "nodeId": 19,
+            "nodeName": "HEAD",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 18
+         }, {
+            "attributes": [ "class", "with-new-header touch" ],
+            "backendNodeId": 5,
+            "childNodeCount": 25,
+            "localName": "body",
+            "nodeId": 20,
+            "nodeName": "BODY",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 18
+         } ],
+         "frameId": "503690452DB1DC6F079D0175A9B66042",
+         "localName": "html",
+         "nodeId": 18,
+         "nodeName": "HTML",
+         "nodeType": 1,
+         "nodeValue": "",
+         "parentId": 16
+      } ],
+      "documentURL": "https://www.airbnb.co.in/",
+      "localName": "",
+      "nodeId": 16,
+      "nodeName": "#document",
+      "nodeType": 9,
+      "nodeValue": "",
+      "xmlVersion": ""
+   }
+}
+[1595584466.737][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=51) 503690452DB1DC6F079D0175A9B66042 {
+   "awaitPromise": false,
+   "expression": "document.readyState",
+   "returnByValue": true
+}
+[1595584466.793][DEBUG]: DevTools WebSocket Event: Log.entryAdded 503690452DB1DC6F079D0175A9B66042 {
+   "entry": {
+      "level": "warning",
+      "source": "other",
+      "text": "Tracking Prevention blocked access to storage for https://www.google.com/pagead/1p-user-list/1049231994/?random=1595584466145&cv=9&fst=1595581200000&num=1&label=PRowCPiEiQQQ-oSo9AM&guid=ON&u_h=864&...",
+      "timestamp": 1.5955844667799102e+12,
+      "url": "https://www.airbnb.co.in/"
+   }
+}
+[1595584466.793][DEBUG]: DevTools WebSocket Event: Log.entryAdded 503690452DB1DC6F079D0175A9B66042 {
+   "entry": {
+      "level": "warning",
+      "source": "other",
+      "text": "Tracking Prevention blocked access to storage for https://www.google.com/pagead/1p-user-list/1049231994/?random=1595584466145&cv=9&fst=1595581200000&num=1&label=PRowCPiEiQQQ-oSo9AM&guid=ON&u_h=864&...",
+      "timestamp": 1.595584466780092e+12,
+      "url": "https://www.airbnb.co.in/"
+   }
+}
+[1595584466.793][DEBUG]: DevTools WebSocket Event: Log.entryAdded 503690452DB1DC6F079D0175A9B66042 {
+   "entry": {
+      "level": "warning",
+      "source": "other",
+      "text": "Tracking Prevention blocked access to storage for https://www.google.co.in/pagead/1p-user-list/1049231994/?random=1595584466145&cv=9&fst=1595581200000&num=1&label=PRowCPiEiQQQ-oSo9AM&guid=ON&u_h=86...",
+      "timestamp": 1.595584466780385e+12,
+      "url": "https://www.airbnb.co.in/"
+   }
+}
+[1595584466.793][DEBUG]: DevTools WebSocket Event: Log.entryAdded 503690452DB1DC6F079D0175A9B66042 {
+   "entry": {
+      "level": "warning",
+      "source": "other",
+      "text": "Tracking Prevention blocked access to storage for https://www.google.co.in/pagead/1p-user-list/1049231994/?random=1595584466145&cv=9&fst=1595581200000&num=1&label=PRowCPiEiQQQ-oSo9AM&guid=ON&u_h=86...",
+      "timestamp": 1.59558446678049e+12,
+      "url": "https://www.airbnb.co.in/"
+   }
+}
+[1595584466.793][DEBUG]: DevTools WebSocket Event: Log.entryAdded 503690452DB1DC6F079D0175A9B66042 {
+   "entry": {
+      "level": "warning",
+      "source": "other",
+      "text": "Tracking Prevention blocked access to storage for https://www.google.com/pagead/1p-user-list/930245403/?random=1595584466170&cv=9&fst=1595581200000&num=1&label=rOTLCKSrxGQQm9bJuwM&guid=ON&u_h=864&u...",
+      "timestamp": 1.595584466780738e+12,
+      "url": "https://www.airbnb.co.in/"
+   }
+}
+[1595584466.793][DEBUG]: DevTools WebSocket Event: Log.entryAdded 503690452DB1DC6F079D0175A9B66042 {
+   "entry": {
+      "level": "warning",
+      "source": "other",
+      "text": "Tracking Prevention blocked access to storage for https://www.google.com/pagead/1p-user-list/930245403/?random=1595584466170&cv=9&fst=1595581200000&num=1&label=rOTLCKSrxGQQm9bJuwM&guid=ON&u_h=864&u...",
+      "timestamp": 1.595584466780832e+12,
+      "url": "https://www.airbnb.co.in/"
+   }
+}
+[1595584466.793][DEBUG]: DevTools WebSocket Event: Log.entryAdded 503690452DB1DC6F079D0175A9B66042 {
+   "entry": {
+      "level": "warning",
+      "source": "other",
+      "text": "Tracking Prevention blocked access to storage for https://www.google.co.in/pagead/1p-user-list/930245403/?random=1595584466170&cv=9&fst=1595581200000&num=1&label=rOTLCKSrxGQQm9bJuwM&guid=ON&u_h=864...",
+      "timestamp": 1.595584466781022e+12,
+      "url": "https://www.airbnb.co.in/"
+   }
+}
+[1595584466.794][DEBUG]: DevTools WebSocket Event: Log.entryAdded 503690452DB1DC6F079D0175A9B66042 {
+   "entry": {
+      "level": "warning",
+      "source": "other",
+      "text": "Tracking Prevention blocked access to storage for https://www.google.co.in/pagead/1p-user-list/930245403/?random=1595584466170&cv=9&fst=1595581200000&num=1&label=rOTLCKSrxGQQm9bJuwM&guid=ON&u_h=864...",
+      "timestamp": 1.595584466781497e+12,
+      "url": "https://www.airbnb.co.in/"
+   }
+}
+[1595584466.794][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=51) 503690452DB1DC6F079D0175A9B66042 {
+   "result": {
+      "type": "string",
+      "value": "complete"
+   }
+}
+[1595584466.794][INFO]: Done waiting for pending navigations. Status: ok
+[1595584466.798][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=52) 503690452DB1DC6F079D0175A9B66042 {
+   "awaitPromise": true,
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+[1595584466.836][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=52) 503690452DB1DC6F079D0175A9B66042 {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": [  ]
+      }
+   }
+}
+[1595584466.836][INFO]: Waiting for pending navigations...
+[1595584466.836][DEBUG]: DevTools WebSocket Event: Log.entryAdded 503690452DB1DC6F079D0175A9B66042 {
+   "entry": {
+      "level": "warning",
+      "source": "other",
+      "text": "Tracking Prevention blocked access to storage for https://www.google.com/pagead/1p-user-list/810932538/?random=1595584466166&cv=9&fst=1595581200000&num=1&guid=ON&u_h=864&u_w=1536&u_ah=824&u_aw=1536...",
+      "timestamp": 1.5955844668282659e+12,
+      "url": "https://www.airbnb.co.in/"
+   }
+}
+[1595584466.836][DEBUG]: DevTools WebSocket Event: Log.entryAdded 503690452DB1DC6F079D0175A9B66042 {
+   "entry": {
+      "level": "warning",
+      "source": "other",
+      "text": "Tracking Prevention blocked access to storage for https://www.google.com/pagead/1p-user-list/810932538/?random=1595584466166&cv=9&fst=1595581200000&num=1&guid=ON&u_h=864&u_w=1536&u_ah=824&u_aw=1536...",
+      "timestamp": 1.595584466828364e+12,
+      "url": "https://www.airbnb.co.in/"
+   }
+}
+[1595584466.836][DEBUG]: DevTools WebSocket Event: Log.entryAdded 503690452DB1DC6F079D0175A9B66042 {
+   "entry": {
+      "level": "warning",
+      "source": "other",
+      "text": "Tracking Prevention blocked access to storage for https://www.google.co.in/pagead/1p-user-list/810932538/?random=1595584466166&cv=9&fst=1595581200000&num=1&guid=ON&u_h=864&u_w=1536&u_ah=824&u_aw=15...",
+      "timestamp": 1.5955844668312222e+12,
+      "url": "https://www.airbnb.co.in/"
+   }
+}
+[1595584466.836][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=53) 503690452DB1DC6F079D0175A9B66042 {
+   "expression": "1"
+}
+[1595584466.838][DEBUG]: DevTools WebSocket Event: Log.entryAdded 503690452DB1DC6F079D0175A9B66042 {
+   "entry": {
+      "level": "warning",
+      "source": "other",
+      "text": "Tracking Prevention blocked access to storage for https://www.google.co.in/pagead/1p-user-list/810932538/?random=1595584466166&cv=9&fst=1595581200000&num=1&guid=ON&u_h=864&u_w=1536&u_ah=824&u_aw=15...",
+      "timestamp": 1.595584466831351e+12,
+      "url": "https://www.airbnb.co.in/"
+   }
+}
+[1595584466.838][DEBUG]: DevTools WebSocket Event: Log.entryAdded 503690452DB1DC6F079D0175A9B66042 {
+   "entry": {
+      "level": "warning",
+      "source": "other",
+      "text": "Tracking Prevention blocked access to storage for https://www.google.com/pagead/1p-user-list/821164191/?random=1595584466177&cv=9&fst=1595581200000&num=1&guid=ON&eid=376635470&u_h=864&u_w=1536&u_ah...",
+      "timestamp": 1.595584466834244e+12,
+      "url": "https://www.airbnb.co.in/"
+   }
+}
+[1595584466.838][DEBUG]: DevTools WebSocket Event: Log.entryAdded 503690452DB1DC6F079D0175A9B66042 {
+   "entry": {
+      "level": "warning",
+      "source": "other",
+      "text": "Tracking Prevention blocked access to storage for https://www.google.com/pagead/1p-user-list/821164191/?random=1595584466177&cv=9&fst=1595581200000&num=1&guid=ON&eid=376635470&u_h=864&u_w=1536&u_ah...",
+      "timestamp": 1.5955844668372468e+12,
+      "url": "https://www.airbnb.co.in/"
+   }
+}
+[1595584466.839][DEBUG]: DevTools WebSocket Event: Log.entryAdded 503690452DB1DC6F079D0175A9B66042 {
+   "entry": {
+      "level": "warning",
+      "source": "other",
+      "text": "Tracking Prevention blocked access to storage for https://www.google.co.in/pagead/1p-user-list/821164191/?random=1595584466177&cv=9&fst=1595581200000&num=1&guid=ON&eid=376635470&u_h=864&u_w=1536&u_...",
+      "timestamp": 1.5955844668377349e+12,
+      "url": "https://www.airbnb.co.in/"
+   }
+}
+[1595584466.839][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=53) 503690452DB1DC6F079D0175A9B66042 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1595584466.839][INFO]: Done waiting for pending navigations. Status: ok
+[1595584466.839][INFO]: [b741df3cf7b3719e6cdc6ee195a39894] RESPONSE FindElements [  ]
+[1595584466.881][INFO]: [b741df3cf7b3719e6cdc6ee195a39894] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//button[@type=\"submit\"]"
+}
+[1595584466.881][INFO]: Waiting for pending navigations...
+[1595584466.881][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=54) 503690452DB1DC6F079D0175A9B66042 {
+   "expression": "1"
+}
+[1595584466.946][DEBUG]: DevTools WebSocket Event: Log.entryAdded 503690452DB1DC6F079D0175A9B66042 {
+   "entry": {
+      "level": "warning",
+      "source": "other",
+      "text": "Tracking Prevention blocked access to storage for https://www.google.co.in/pagead/1p-user-list/821164191/?random=1595584466177&cv=9&fst=1595581200000&num=1&guid=ON&eid=376635470&u_h=864&u_w=1536&u_...",
+      "timestamp": 1.5955844669301108e+12,
+      "url": "https://www.airbnb.co.in/"
+   }
+}
+[1595584466.946][DEBUG]: DevTools WebSocket Event: Log.entryAdded 503690452DB1DC6F079D0175A9B66042 {
+   "entry": {
+      "level": "warning",
+      "source": "other",
+      "text": "Tracking Prevention blocked access to storage for https://www.google.com/pagead/1p-user-list/1023009977/?random=1595584466174&cv=9&fst=1595581200000&num=1&guid=ON&u_h=864&u_w=1536&u_ah=824&u_aw=153...",
+      "timestamp": 1.595584466934823e+12,
+      "url": "https://www.airbnb.co.in/"
+   }
+}
+[1595584466.946][DEBUG]: DevTools WebSocket Event: Log.entryAdded 503690452DB1DC6F079D0175A9B66042 {
+   "entry": {
+      "level": "warning",
+      "source": "other",
+      "text": "Tracking Prevention blocked access to storage for https://www.google.com/pagead/1p-user-list/1023009977/?random=1595584466174&cv=9&fst=1595581200000&num=1&guid=ON&u_h=864&u_w=1536&u_ah=824&u_aw=153...",
+      "timestamp": 1.595584466935322e+12,
+      "url": "https://www.airbnb.co.in/"
+   }
+}
+[1595584466.946][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=54) 503690452DB1DC6F079D0175A9B66042 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1595584466.946][INFO]: Done waiting for pending navigations. Status: ok
+[1595584466.949][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=55) 503690452DB1DC6F079D0175A9B66042 {
+   "awaitPromise": true,
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+[1595584467.015][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=55) 503690452DB1DC6F079D0175A9B66042 {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": [  ]
+      }
+   }
+}
+[1595584467.015][INFO]: Waiting for pending navigations...
+[1595584467.015][DEBUG]: DevTools WebSocket Event: Log.entryAdded 503690452DB1DC6F079D0175A9B66042 {
+   "entry": {
+      "level": "warning",
+      "source": "other",
+      "text": "Tracking Prevention blocked access to storage for https://www.google.co.in/pagead/1p-user-list/1023009977/?random=1595584466174&cv=9&fst=1595581200000&num=1&guid=ON&u_h=864&u_w=1536&u_ah=824&u_aw=1...",
+      "timestamp": 1.59558446700748e+12,
+      "url": "https://www.airbnb.co.in/"
+   }
+}
+[1595584467.015][DEBUG]: DevTools WebSocket Event: Log.entryAdded 503690452DB1DC6F079D0175A9B66042 {
+   "entry": {
+      "level": "warning",
+      "source": "other",
+      "text": "Tracking Prevention blocked access to storage for https://www.google.co.in/pagead/1p-user-list/1023009977/?random=1595584466174&cv=9&fst=1595581200000&num=1&guid=ON&u_h=864&u_w=1536&u_ah=824&u_aw=1...",
+      "timestamp": 1.595584467007715e+12,
+      "url": "https://www.airbnb.co.in/"
+   }
+}
+[1595584467.015][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=56) 503690452DB1DC6F079D0175A9B66042 {
+   "expression": "1"
+}
+[1595584467.082][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=56) 503690452DB1DC6F079D0175A9B66042 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1595584467.082][INFO]: Done waiting for pending navigations. Status: ok
+[1595584467.082][INFO]: [b741df3cf7b3719e6cdc6ee195a39894] RESPONSE FindElements [  ]
+[1595584467.108][INFO]: [b741df3cf7b3719e6cdc6ee195a39894] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//button[@type=\"submit\"]"
+}
+[1595584467.108][INFO]: Waiting for pending navigations...
+[1595584467.108][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=57) 503690452DB1DC6F079D0175A9B66042 {
+   "expression": "1"
+}
+[1595584467.112][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=57) 503690452DB1DC6F079D0175A9B66042 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1595584467.112][INFO]: Done waiting for pending navigations. Status: ok
+[1595584467.115][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=58) 503690452DB1DC6F079D0175A9B66042 {
+   "awaitPromise": true,
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+[1595584467.130][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=58) 503690452DB1DC6F079D0175A9B66042 {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": [  ]
+      }
+   }
+}
+[1595584467.130][INFO]: Waiting for pending navigations...
+[1595584467.130][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=59) 503690452DB1DC6F079D0175A9B66042 {
+   "expression": "1"
+}
+[1595584467.131][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=59) 503690452DB1DC6F079D0175A9B66042 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1595584467.131][INFO]: Done waiting for pending navigations. Status: ok
+[1595584467.132][INFO]: [b741df3cf7b3719e6cdc6ee195a39894] RESPONSE FindElements [  ]
+[1595584467.272][INFO]: [b741df3cf7b3719e6cdc6ee195a39894] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//button[@type=\"submit\"]"
+}
+[1595584467.272][INFO]: Waiting for pending navigations...
+[1595584467.272][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=60) 503690452DB1DC6F079D0175A9B66042 {
+   "expression": "1"
+}
+[1595584467.273][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=60) 503690452DB1DC6F079D0175A9B66042 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1595584467.273][INFO]: Done waiting for pending navigations. Status: ok
+[1595584467.277][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=61) 503690452DB1DC6F079D0175A9B66042 {
+   "awaitPromise": true,
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+[1595584467.287][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=61) 503690452DB1DC6F079D0175A9B66042 {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": [  ]
+      }
+   }
+}
+[1595584467.287][INFO]: Waiting for pending navigations...
+[1595584467.287][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=62) 503690452DB1DC6F079D0175A9B66042 {
+   "expression": "1"
+}
+[1595584467.295][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=62) 503690452DB1DC6F079D0175A9B66042 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1595584467.295][INFO]: Done waiting for pending navigations. Status: ok
+[1595584467.295][INFO]: [b741df3cf7b3719e6cdc6ee195a39894] RESPONSE FindElements [  ]
+[1595584467.773][INFO]: [b741df3cf7b3719e6cdc6ee195a39894] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//button[@type=\"submit\"]"
+}
+[1595584467.773][DEBUG]: DevTools WebSocket Event: Log.entryAdded 503690452DB1DC6F079D0175A9B66042 {
+   "entry": {
+      "level": "warning",
+      "source": "other",
+      "text": "Tracking Prevention blocked access to storage for https://www.google.com/.",
+      "timestamp": 1.595584467418534e+12,
+      "url": "https://www.airbnb.co.in/"
+   }
+}
+[1595584467.773][DEBUG]: DevTools WebSocket Event: Log.entryAdded 503690452DB1DC6F079D0175A9B66042 {
+   "entry": {
+      "level": "warning",
+      "source": "other",
+      "text": "Tracking Prevention blocked access to storage for https://www.gstatic.com/recaptcha/api2/logo_48.png.",
+      "timestamp": 1.595584467424908e+12,
+      "url": "https://www.airbnb.co.in/"
+   }
+}
+[1595584467.773][DEBUG]: DevTools WebSocket Event: Log.entryAdded 503690452DB1DC6F079D0175A9B66042 {
+   "entry": {
+      "level": "warning",
+      "source": "other",
+      "text": "Tracking Prevention blocked access to storage for https://www.gstatic.com/recaptcha/api2/logo_48.png.",
+      "timestamp": 1.59558446742503e+12,
+      "url": "https://www.airbnb.co.in/"
+   }
+}
+[1595584467.773][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated D4D8FF68964C87CFD53F23A0C486057C {
+   "childNodeCount": 2,
+   "nodeId": 3
+}
+[1595584467.774][DEBUG]: DevTools WebSocket Event: Page.frameAttached D4D8FF68964C87CFD53F23A0C486057C {
+   "frameId": "D63959BB5B7BA7B9FC1D78A4C466800E",
+   "parentFrameId": "344DA09AEF62F8AFFBBA08BCF6925034",
+   "stack": {
+      "callFrames": [ {
+         "columnNumber": 358,
+         "functionName": "",
+         "lineNumber": 328,
+         "scriptId": "6",
+         "url": "https://www.gstatic.com/recaptcha/releases/r8WWNwsCvXtk22_oRSVCCZx9/recaptcha__en.js"
+      }, {
+         "columnNumber": 89,
+         "functionName": "",
+         "lineNumber": 346,
+         "scriptId": "6",
+         "url": "https://www.gstatic.com/recaptcha/releases/r8WWNwsCvXtk22_oRSVCCZx9/recaptcha__en.js"
+      }, {
+         "columnNumber": 18,
+         "functionName": "",
+         "lineNumber": 261,
+         "scriptId": "6",
+         "url": "https://www.gstatic.com/recaptcha/releases/r8WWNwsCvXtk22_oRSVCCZx9/recaptcha__en.js"
+      }, {
+         "columnNumber": 379,
+         "functionName": "",
+         "lineNumber": 303,
+         "scriptId": "6",
+         "url": "https://www.gstatic.com/recaptcha/releases/r8WWNwsCvXtk22_oRSVCCZx9/recaptcha__en.js"
+      }, {
+         "columnNumber": 390,
+         "functionName": "next",
+         "lineNumber": 334,
+         "scriptId": "6",
+         "url": "https://www.gstatic.com/recaptcha/releases/r8WWNwsCvXtk22_oRSVCCZx9/recaptcha__en.js"
+      }, {
+         "columnNumber": 240,
+         "functionName": "",
+         "lineNumber": 33,
+         "scriptId": "6",
+         "url": "https://www.gstatic.com/recaptcha/releases/r8WWNwsCvXtk22_oRSVCCZx9/recaptcha__en.js"
+      }, {
+         "columnNumber": 133,
+         "functionName": "",
+         "lineNumber": 33,
+         "scriptId": "6",
+         "url": "https://www.gstatic.com/recaptcha/releases/r8WWNwsCvXtk22_oRSVCCZx9/recaptcha__en.js"
+      }, {
+         "columnNumber": 363,
+         "functionName": "",
+         "lineNumber": 80,
+         "scriptId": "6",
+         "url": "https://www.gstatic.com/recaptcha/releases/r8WWNwsCvXtk22_oRSVCCZx9/recaptcha__en.js"
+      }, {
+         "columnNumber": 448,
+         "functionName": "",
+         "lineNumber": 260,
+         "scriptId": "6",
+         "url": "https://www.gstatic.com/recaptcha/releases/r8WWNwsCvXtk22_oRSVCCZx9/recaptcha__en.js"
+      }, {
+         "columnNumber": 364,
+         "functionName": "",
+         "lineNumber": 86,
+         "scriptId": "6",
+         "url": "https://www.gstatic.com/recaptcha/releases/r8WWNwsCvXtk22_oRSVCCZx9/recaptcha__en.js"
+      }, {
+         "columnNumber": 379,
+         "functionName": "",
+         "lineNumber": 303,
+         "scriptId": "6",
+         "url": "https://www.gstatic.com/recaptcha/releases/r8WWNwsCvXtk22_oRSVCCZx9/recaptcha__en.js"
+      }, {
+         "columnNumber": 390,
+         "functionName": "next",
+         "lineNumber": 334,
+         "scriptId": "6",
+         "url": "https://www.gstatic.com/recaptcha/releases/r8WWNwsCvXtk22_oRSVCCZx9/recaptcha__en.js"
+      }, {
+         "columnNumber": 240,
+         "functionName": "",
+         "lineNumber": 33,
+         "scriptId": "6",
+         "url": "https://www.gstatic.com/recaptcha/releases/r8WWNwsCvXtk22_oRSVCCZx9/recaptcha__en.js"
+      }, {
+         "columnNumber": 133,
+         "functionName": "",
+         "lineNumber": 33,
+         "scriptId": "6",
+         "url": "https://www.gstatic.com/recaptcha/releases/r8WWNwsCvXtk22_oRSVCCZx9/recaptcha__en.js"
+      }, {
+         "columnNumber": 363,
+         "functionName": "",
+         "lineNumber": 80,
+         "scriptId": "6",
+         "url": "https://www.gstatic.com/recaptcha/releases/r8WWNwsCvXtk22_oRSVCCZx9/recaptcha__en.js"
+      }, {
+         "columnNumber": 293,
+         "functionName": "",
+         "lineNumber": 86,
+         "scriptId": "6",
+         "url": "https://www.gstatic.com/recaptcha/releases/r8WWNwsCvXtk22_oRSVCCZx9/recaptcha__en.js"
+      }, {
+         "columnNumber": 107,
+         "functionName": "",
+         "lineNumber": 572,
+         "scriptId": "6",
+         "url": "https://www.gstatic.com/recaptcha/releases/r8WWNwsCvXtk22_oRSVCCZx9/recaptcha__en.js"
+      }, {
+         "columnNumber": 379,
+         "functionName": "",
+         "lineNumber": 303,
+         "scriptId": "6",
+         "url": "https://www.gstatic.com/recaptcha/releases/r8WWNwsCvXtk22_oRSVCCZx9/recaptcha__en.js"
+      }, {
+         "columnNumber": 390,
+         "functionName": "next",
+         "lineNumber": 334,
+         "scriptId": "6",
+         "url": "https://www.gstatic.com/recaptcha/releases/r8WWNwsCvXtk22_oRSVCCZx9/recaptcha__en.js"
+      }, "..." ]
+   }
+}
+[1595584467.774][DEBUG]: DevTools WebSocket Event: Page.frameStartedLoading D4D8FF68964C87CFD53F23A0C486057C {
+   "frameId": "D63959BB5B7BA7B9FC1D78A4C466800E"
+}
+[1595584467.774][DEBUG]: DevTools WebSocket Event: Page.frameNavigated D4D8FF68964C87CFD53F23A0C486057C {
+   "frame": {
+      "id": "D63959BB5B7BA7B9FC1D78A4C466800E",
+      "loaderId": "6AEC46843693171EBBC112DE6EFEB408",
+      "mimeType": "text/html",
+      "name": "",
+      "parentId": "344DA09AEF62F8AFFBBA08BCF6925034",
+      "securityOrigin": "://",
+      "url": "about:blank"
+   }
+}
+[1595584467.774][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated D4D8FF68964C87CFD53F23A0C486057C {
+   "context": {
+      "auxData": {
+         "frameId": "D63959BB5B7BA7B9FC1D78A4C466800E",
+         "isDefault": true,
+         "type": "default"
+      },
+      "id": 2,
+      "name": "",
+      "origin": "https://www.google.com"
+   }
+}
+[1595584467.774][DEBUG]: DevTools WebSocket Event: Page.frameStoppedLoading D4D8FF68964C87CFD53F23A0C486057C {
+   "frameId": "D63959BB5B7BA7B9FC1D78A4C466800E"
+}
+[1595584467.774][DEBUG]: DevTools WebSocket Event: DOM.documentUpdated D4D8FF68964C87CFD53F23A0C486057C {
+
+}
+[1595584467.774][DEBUG]: DevTools WebSocket Command: DOM.getDocument (id=8) D4D8FF68964C87CFD53F23A0C486057C {
+
+}
+[1595584467.775][DEBUG]: DevTools WebSocket Event: Page.domContentEventFired D4D8FF68964C87CFD53F23A0C486057C {
+   "timestamp": 55469.14891
+}
+[1595584467.775][DEBUG]: DevTools WebSocket Event: Log.entryAdded 503690452DB1DC6F079D0175A9B66042 {
+   "entry": {
+      "level": "warning",
+      "source": "other",
+      "text": "Tracking Prevention blocked access to storage for https://www.google.com/js/bg/Tt0mLDKZlf_cow3Xat8Z87ITm0Gj_eaE9na0fCfZ4RQ.js.",
+      "timestamp": 1.595584467593528e+12,
+      "url": "https://www.airbnb.co.in/"
+   }
+}
+[1595584467.775][DEBUG]: DevTools WebSocket Event: Log.entryAdded 503690452DB1DC6F079D0175A9B66042 {
+   "entry": {
+      "level": "warning",
+      "source": "other",
+      "text": "Tracking Prevention blocked access to storage for https://www.google.com/js/bg/Tt0mLDKZlf_cow3Xat8Z87ITm0Gj_eaE9na0fCfZ4RQ.js.",
+      "timestamp": 1.5955844675937659e+12,
+      "url": "https://www.airbnb.co.in/"
+   }
+}
+[1595584467.775][DEBUG]: DevTools WebSocket Event: Page.frameAttached 503690452DB1DC6F079D0175A9B66042 {
+   "frameId": "70CE3C99F1D2D6E9C30BB73D5D062725",
+   "parentFrameId": "503690452DB1DC6F079D0175A9B66042",
+   "stack": {
+      "callFrames": [ {
+         "columnNumber": 358,
+         "functionName": "",
+         "lineNumber": 328,
+         "scriptId": "130",
+         "url": "https://www.gstatic.com/recaptcha/releases/r8WWNwsCvXtk22_oRSVCCZx9/recaptcha__en.js"
+      }, {
+         "columnNumber": 89,
+         "functionName": "",
+         "lineNumber": 346,
+         "scriptId": "130",
+         "url": "https://www.gstatic.com/recaptcha/releases/r8WWNwsCvXtk22_oRSVCCZx9/recaptcha__en.js"
+      }, {
+         "columnNumber": 290,
+         "functionName": "",
+         "lineNumber": 99,
+         "scriptId": "130",
+         "url": "https://www.gstatic.com/recaptcha/releases/r8WWNwsCvXtk22_oRSVCCZx9/recaptcha__en.js"
+      }, {
+         "columnNumber": 379,
+         "functionName": "",
+         "lineNumber": 303,
+         "scriptId": "130",
+         "url": "https://www.gstatic.com/recaptcha/releases/r8WWNwsCvXtk22_oRSVCCZx9/recaptcha__en.js"
+      }, {
+         "columnNumber": 390,
+         "functionName": "next",
+         "lineNumber": 334,
+         "scriptId": "130",
+         "url": "https://www.gstatic.com/recaptcha/releases/r8WWNwsCvXtk22_oRSVCCZx9/recaptcha__en.js"
+      }, {
+         "columnNumber": 240,
+         "functionName": "",
+         "lineNumber": 33,
+         "scriptId": "130",
+         "url": "https://www.gstatic.com/recaptcha/releases/r8WWNwsCvXtk22_oRSVCCZx9/recaptcha__en.js"
+      }, {
+         "columnNumber": 133,
+         "functionName": "",
+         "lineNumber": 33,
+         "scriptId": "130",
+         "url": "https://www.gstatic.com/recaptcha/releases/r8WWNwsCvXtk22_oRSVCCZx9/recaptcha__en.js"
+      }, {
+         "columnNumber": 363,
+         "functionName": "",
+         "lineNumber": 80,
+         "scriptId": "130",
+         "url": "https://www.gstatic.com/recaptcha/releases/r8WWNwsCvXtk22_oRSVCCZx9/recaptcha__en.js"
+      }, {
+         "columnNumber": 234,
+         "functionName": "",
+         "lineNumber": 99,
+         "scriptId": "130",
+         "url": "https://www.gstatic.com/recaptcha/releases/r8WWNwsCvXtk22_oRSVCCZx9/recaptcha__en.js"
+      }, {
+         "columnNumber": 277,
+         "functionName": "",
+         "lineNumber": 143,
+         "scriptId": "130",
+         "url": "https://www.gstatic.com/recaptcha/releases/r8WWNwsCvXtk22_oRSVCCZx9/recaptcha__en.js"
+      }, {
+         "columnNumber": 379,
+         "functionName": "",
+         "lineNumber": 303,
+         "scriptId": "130",
+         "url": "https://www.gstatic.com/recaptcha/releases/r8WWNwsCvXtk22_oRSVCCZx9/recaptcha__en.js"
+      }, {
+         "columnNumber": 390,
+         "functionName": "next",
+         "lineNumber": 334,
+         "scriptId": "130",
+         "url": "https://www.gstatic.com/recaptcha/releases/r8WWNwsCvXtk22_oRSVCCZx9/recaptcha__en.js"
+      }, {
+         "columnNumber": 240,
+         "functionName": "",
+         "lineNumber": 33,
+         "scriptId": "130",
+         "url": "https://www.gstatic.com/recaptcha/releases/r8WWNwsCvXtk22_oRSVCCZx9/recaptcha__en.js"
+      }, {
+         "columnNumber": 133,
+         "functionName": "",
+         "lineNumber": 33,
+         "scriptId": "130",
+         "url": "https://www.gstatic.com/recaptcha/releases/r8WWNwsCvXtk22_oRSVCCZx9/recaptcha__en.js"
+      }, {
+         "columnNumber": 363,
+         "functionName": "",
+         "lineNumber": 80,
+         "scriptId": "130",
+         "url": "https://www.gstatic.com/recaptcha/releases/r8WWNwsCvXtk22_oRSVCCZx9/recaptcha__en.js"
+      }, {
+         "columnNumber": 182,
+         "functionName": "",
+         "lineNumber": 143,
+         "scriptId": "130",
+         "url": "https://www.gstatic.com/recaptcha/releases/r8WWNwsCvXtk22_oRSVCCZx9/recaptcha__en.js"
+      }, {
+         "columnNumber": 358,
+         "functionName": "",
+         "lineNumber": 470,
+         "scriptId": "130",
+         "url": "https://www.gstatic.com/recaptcha/releases/r8WWNwsCvXtk22_oRSVCCZx9/recaptcha__en.js"
+      }, {
+         "columnNumber": 443,
+         "functionName": "",
+         "lineNumber": 81,
+         "scriptId": "130",
+         "url": "https://www.gstatic.com/recaptcha/releases/r8WWNwsCvXtk22_oRSVCCZx9/recaptcha__en.js"
+      }, {
+         "columnNumber": 501,
+         "functionName": "ky",
+         "lineNumber": 452,
+         "scriptId": "130",
+         "url": "https://www.gstatic.com/recaptcha/releases/r8WWNwsCvXtk22_oRSVCCZx9/recaptcha__en.js"
+      }, "..." ]
+   }
+}
+[1595584467.775][DEBUG]: DevTools WebSocket Event: Page.frameStartedLoading 503690452DB1DC6F079D0175A9B66042 {
+   "frameId": "70CE3C99F1D2D6E9C30BB73D5D062725"
+}
+[1595584467.776][DEBUG]: DevTools WebSocket Event: Page.frameNavigated 503690452DB1DC6F079D0175A9B66042 {
+   "frame": {
+      "id": "70CE3C99F1D2D6E9C30BB73D5D062725",
+      "loaderId": "C4BECA32BF9F963F2109AD63450968B8",
+      "mimeType": "text/html",
+      "name": "",
+      "parentId": "503690452DB1DC6F079D0175A9B66042",
+      "securityOrigin": "://",
+      "url": "about:blank"
+   }
+}
+[1595584467.776][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated 503690452DB1DC6F079D0175A9B66042 {
+   "context": {
+      "auxData": {
+         "frameId": "70CE3C99F1D2D6E9C30BB73D5D062725",
+         "isDefault": true,
+         "type": "default"
+      },
+      "id": 2,
+      "name": "",
+      "origin": "https://www.airbnb.co.in"
+   }
+}
+[1595584467.776][DEBUG]: DevTools WebSocket Event: Page.frameStoppedLoading 503690452DB1DC6F079D0175A9B66042 {
+   "frameId": "70CE3C99F1D2D6E9C30BB73D5D062725"
+}
+[1595584467.776][DEBUG]: DevTools WebSocket Event: Page.frameAttached D4D8FF68964C87CFD53F23A0C486057C {
+   "frameId": "D5427660551A9A300197840E0C7D0006",
+   "parentFrameId": "344DA09AEF62F8AFFBBA08BCF6925034",
+   "stack": {
+      "callFrames": [ {
+         "columnNumber": 5013,
+         "functionName": "eval",
+         "lineNumber": 2,
+         "scriptId": "10",
+         "url": ""
+      }, {
+         "columnNumber": 8135,
+         "functionName": "pV",
+         "lineNumber": 2,
+         "scriptId": "10",
+         "url": ""
+      }, {
+         "columnNumber": 8669,
+         "functionName": "t",
+         "lineNumber": 2,
+         "scriptId": "10",
+         "url": ""
+      }, {
+         "columnNumber": 10454,
+         "functionName": "m.C.n.nG.n.$",
+         "lineNumber": 2,
+         "scriptId": "10",
+         "url": ""
+      }, {
+         "columnNumber": 6675,
+         "functionName": "qM",
+         "lineNumber": 2,
+         "scriptId": "10",
+         "url": ""
+      }, {
+         "columnNumber": 11650,
+         "functionName": "XJ",
+         "lineNumber": 2,
+         "scriptId": "10",
+         "url": ""
+      }, {
+         "columnNumber": 1702,
+         "functionName": "l",
+         "lineNumber": 2,
+         "scriptId": "10",
+         "url": ""
+      }, {
+         "columnNumber": 11686,
+         "functionName": "eval",
+         "lineNumber": 2,
+         "scriptId": "10",
+         "url": ""
+      } ]
+   }
+}
+[1595584467.776][DEBUG]: DevTools WebSocket Event: Page.frameStartedLoading D4D8FF68964C87CFD53F23A0C486057C {
+   "frameId": "D5427660551A9A300197840E0C7D0006"
+}
+[1595584467.776][DEBUG]: DevTools WebSocket Event: Page.frameNavigated D4D8FF68964C87CFD53F23A0C486057C {
+   "frame": {
+      "id": "D5427660551A9A300197840E0C7D0006",
+      "loaderId": "129352F0FE0B5873647529BDA6B29734",
+      "mimeType": "text/html",
+      "name": "",
+      "parentId": "344DA09AEF62F8AFFBBA08BCF6925034",
+      "securityOrigin": "://",
+      "url": "about:blank"
+   }
+}
+[1595584467.776][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated D4D8FF68964C87CFD53F23A0C486057C {
+   "context": {
+      "auxData": {
+         "frameId": "D5427660551A9A300197840E0C7D0006",
+         "isDefault": true,
+         "type": "default"
+      },
+      "id": 3,
+      "name": "",
+      "origin": "https://www.google.com"
+   }
+}
+[1595584467.776][DEBUG]: DevTools WebSocket Event: Page.frameStoppedLoading D4D8FF68964C87CFD53F23A0C486057C {
+   "frameId": "D5427660551A9A300197840E0C7D0006"
+}
+[1595584467.776][INFO]: Waiting for pending navigations...
+[1595584467.776][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=63) 503690452DB1DC6F079D0175A9B66042 {
+   "expression": "1"
+}
+[1595584467.777][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=63) 503690452DB1DC6F079D0175A9B66042 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1595584467.777][INFO]: Done waiting for pending navigations. Status: ok
+[1595584467.780][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=64) 503690452DB1DC6F079D0175A9B66042 {
+   "awaitPromise": true,
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+[1595584467.785][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=64) 503690452DB1DC6F079D0175A9B66042 {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": [  ]
+      }
+   }
+}
+[1595584467.785][INFO]: Waiting for pending navigations...
+[1595584467.785][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=65) 503690452DB1DC6F079D0175A9B66042 {
+   "expression": "1"
+}
+[1595584467.785][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=65) 503690452DB1DC6F079D0175A9B66042 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1595584467.785][INFO]: Done waiting for pending navigations. Status: ok
+[1595584467.786][INFO]: [b741df3cf7b3719e6cdc6ee195a39894] RESPONSE FindElements [  ]
+[1595584468.276][INFO]: [b741df3cf7b3719e6cdc6ee195a39894] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//button[@type=\"submit\"]"
+}
+[1595584468.276][DEBUG]: DevTools WebSocket Event: Log.entryAdded 503690452DB1DC6F079D0175A9B66042 {
+   "entry": {
+      "level": "warning",
+      "source": "other",
+      "text": "Tracking Prevention blocked access to storage for https://www.google.com/.",
+      "timestamp": 1.595584467797086e+12,
+      "url": "https://www.airbnb.co.in/"
+   }
+}
+[1595584468.276][DEBUG]: DevTools WebSocket Response: DOM.getDocument (id=8) D4D8FF68964C87CFD53F23A0C486057C {
+   "root": {
+      "backendNodeId": 1,
+      "baseURL": "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6LflNKsUAAAAAJZAn48kK7mF-KMioLD3aLZm0thD&co=aHR0cHM6Ly93d3cuYWlyYm5iLmNvLmluOjQ0Mw..&hl=en&v=r8WWNwsCvXtk22_oRSVCCZx9&size=invisible&cb=oboxtcs9sqo3",
+      "childNodeCount": 2,
+      "children": [ {
+         "backendNodeId": 2,
+         "localName": "",
+         "nodeId": 5,
+         "nodeName": "html",
+         "nodeType": 10,
+         "nodeValue": "",
+         "parentId": 4,
+         "publicId": "",
+         "systemId": ""
+      }, {
+         "attributes": [ "dir", "ltr", "lang", "en" ],
+         "backendNodeId": 3,
+         "childNodeCount": 2,
+         "children": [ {
+            "attributes": [  ],
+            "backendNodeId": 4,
+            "childNodeCount": 7,
+            "localName": "head",
+            "nodeId": 7,
+            "nodeName": "HEAD",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 6
+         }, {
+            "attributes": [  ],
+            "backendNodeId": 5,
+            "childNodeCount": 6,
+            "localName": "body",
+            "nodeId": 8,
+            "nodeName": "BODY",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 6
+         } ],
+         "frameId": "344DA09AEF62F8AFFBBA08BCF6925034",
+         "localName": "html",
+         "nodeId": 6,
+         "nodeName": "HTML",
+         "nodeType": 1,
+         "nodeValue": "",
+         "parentId": 4
+      } ],
+      "documentURL": "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6LflNKsUAAAAAJZAn48kK7mF-KMioLD3aLZm0thD&co=aHR0cHM6Ly93d3cuYWlyYm5iLmNvLmluOjQ0Mw..&hl=en&v=r8WWNwsCvXtk22_oRSVCCZx9&size=invisible&cb=oboxtcs9sqo3",
+      "localName": "",
+      "nodeId": 4,
+      "nodeName": "#document",
+      "nodeType": 9,
+      "nodeValue": "",
+      "xmlVersion": ""
+   }
+}
+[1595584468.276][DEBUG]: DevTools WebSocket Event: Target.attachedToTarget D4D8FF68964C87CFD53F23A0C486057C {
+   "sessionId": "267782D7E6F887E50CC9D10E41FE4302",
+   "targetInfo": {
+      "attached": true,
+      "browserContextId": "0737C938BAE6E8B2AAF5FFC74588EB7C",
+      "targetId": "7B7E44CD7F95F64182C72D05C779213B",
+      "title": "https://www.google.com/recaptcha/api2/webworker.js?hl=en&v=r8WWNwsCvXtk22_oRSVCCZx9",
+      "type": "worker",
+      "url": "https://www.google.com/recaptcha/api2/webworker.js?hl=en&v=r8WWNwsCvXtk22_oRSVCCZx9"
+   },
+   "waitingForDebugger": false
+}
+[1595584468.277][DEBUG]: DevTools WebSocket Event: Log.entryAdded 503690452DB1DC6F079D0175A9B66042 {
+   "entry": {
+      "level": "warning",
+      "source": "other",
+      "text": "Tracking Prevention blocked access to storage for https://www.gstatic.com/recaptcha/releases/r8WWNwsCvXtk22_oRSVCCZx9/recaptcha__en.js.",
+      "timestamp": 1.59558446789641e+12,
+      "url": "https://www.airbnb.co.in/"
+   }
+}
+[1595584468.277][DEBUG]: DevTools WebSocket Event: Log.entryAdded 503690452DB1DC6F079D0175A9B66042 {
+   "entry": {
+      "level": "warning",
+      "source": "other",
+      "text": "Tracking Prevention blocked access to storage for https://www.gstatic.com/recaptcha/releases/r8WWNwsCvXtk22_oRSVCCZx9/recaptcha__en.js.",
+      "timestamp": 1.595584467896635e+12,
+      "url": "https://www.airbnb.co.in/"
+   }
+}
+[1595584468.277][DEBUG]: DevTools WebSocket Event: Page.loadEventFired D4D8FF68964C87CFD53F23A0C486057C {
+   "timestamp": 55469.645616
+}
+[1595584468.277][DEBUG]: DevTools WebSocket Event: Page.frameStoppedLoading D4D8FF68964C87CFD53F23A0C486057C {
+   "frameId": "344DA09AEF62F8AFFBBA08BCF6925034"
+}
+[1595584468.277][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated D4D8FF68964C87CFD53F23A0C486057C {
+   "childNodeCount": 5,
+   "nodeId": 8
+}
+[1595584468.277][DEBUG]: DevTools WebSocket Event: Runtime.executionContextDestroyed D4D8FF68964C87CFD53F23A0C486057C {
+   "executionContextId": 3
+}
+[1595584468.277][DEBUG]: DevTools WebSocket Event: Page.frameDetached D4D8FF68964C87CFD53F23A0C486057C {
+   "frameId": "D5427660551A9A300197840E0C7D0006"
+}
+[1595584468.277][INFO]: Waiting for pending navigations...
+[1595584468.277][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=66) 503690452DB1DC6F079D0175A9B66042 {
+   "expression": "1"
+}
+[1595584468.281][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=66) 503690452DB1DC6F079D0175A9B66042 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1595584468.281][INFO]: Done waiting for pending navigations. Status: ok
+[1595584468.284][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=67) 503690452DB1DC6F079D0175A9B66042 {
+   "awaitPromise": true,
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+[1595584468.289][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=67) 503690452DB1DC6F079D0175A9B66042 {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": [  ]
+      }
+   }
+}
+[1595584468.290][INFO]: Waiting for pending navigations...
+[1595584468.290][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=68) 503690452DB1DC6F079D0175A9B66042 {
+   "expression": "1"
+}
+[1595584468.290][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=68) 503690452DB1DC6F079D0175A9B66042 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1595584468.291][INFO]: Done waiting for pending navigations. Status: ok
+[1595584468.291][INFO]: [b741df3cf7b3719e6cdc6ee195a39894] RESPONSE FindElements [  ]
+[1595584468.774][INFO]: [b741df3cf7b3719e6cdc6ee195a39894] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//button[@type=\"submit\"]"
+}
+[1595584468.774][INFO]: Waiting for pending navigations...
+[1595584468.774][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=69) 503690452DB1DC6F079D0175A9B66042 {
+   "expression": "1"
+}
+[1595584468.775][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=69) 503690452DB1DC6F079D0175A9B66042 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1595584468.775][INFO]: Done waiting for pending navigations. Status: ok
+[1595584468.778][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=70) 503690452DB1DC6F079D0175A9B66042 {
+   "awaitPromise": true,
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+[1595584468.784][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=70) 503690452DB1DC6F079D0175A9B66042 {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": [  ]
+      }
+   }
+}
+[1595584468.784][INFO]: Waiting for pending navigations...
+[1595584468.784][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=71) 503690452DB1DC6F079D0175A9B66042 {
+   "expression": "1"
+}
+[1595584468.785][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=71) 503690452DB1DC6F079D0175A9B66042 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1595584468.785][INFO]: Done waiting for pending navigations. Status: ok
+[1595584468.785][INFO]: [b741df3cf7b3719e6cdc6ee195a39894] RESPONSE FindElements [  ]
+[1595584469.280][INFO]: [b741df3cf7b3719e6cdc6ee195a39894] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//button[@type=\"submit\"]"
+}
+[1595584469.280][INFO]: Waiting for pending navigations...
+[1595584469.280][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=72) 503690452DB1DC6F079D0175A9B66042 {
+   "expression": "1"
+}
+[1595584469.282][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=72) 503690452DB1DC6F079D0175A9B66042 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1595584469.282][INFO]: Done waiting for pending navigations. Status: ok
+[1595584469.285][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=73) 503690452DB1DC6F079D0175A9B66042 {
+   "awaitPromise": true,
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+[1595584469.290][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=73) 503690452DB1DC6F079D0175A9B66042 {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": [  ]
+      }
+   }
+}
+[1595584469.290][INFO]: Waiting for pending navigations...
+[1595584469.290][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=74) 503690452DB1DC6F079D0175A9B66042 {
+   "expression": "1"
+}
+[1595584469.291][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=74) 503690452DB1DC6F079D0175A9B66042 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1595584469.291][INFO]: Done waiting for pending navigations. Status: ok
+[1595584469.291][INFO]: [b741df3cf7b3719e6cdc6ee195a39894] RESPONSE FindElements [  ]
+[1595584469.766][INFO]: [b741df3cf7b3719e6cdc6ee195a39894] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//button[@type=\"submit\"]"
+}
+[1595584469.766][INFO]: Waiting for pending navigations...
+[1595584469.766][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=75) 503690452DB1DC6F079D0175A9B66042 {
+   "expression": "1"
+}
+[1595584469.769][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=75) 503690452DB1DC6F079D0175A9B66042 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1595584469.769][INFO]: Done waiting for pending navigations. Status: ok
+[1595584469.774][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=76) 503690452DB1DC6F079D0175A9B66042 {
+   "awaitPromise": true,
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+[1595584469.782][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=76) 503690452DB1DC6F079D0175A9B66042 {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": [  ]
+      }
+   }
+}
+[1595584469.782][INFO]: Waiting for pending navigations...
+[1595584469.782][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=77) 503690452DB1DC6F079D0175A9B66042 {
+   "expression": "1"
+}
+[1595584469.784][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=77) 503690452DB1DC6F079D0175A9B66042 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1595584469.784][INFO]: Done waiting for pending navigations. Status: ok
+[1595584469.784][INFO]: [b741df3cf7b3719e6cdc6ee195a39894] RESPONSE FindElements [  ]
+[1595584470.268][INFO]: [b741df3cf7b3719e6cdc6ee195a39894] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//button[@type=\"submit\"]"
+}
+[1595584470.268][INFO]: Waiting for pending navigations...
+[1595584470.268][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=78) 503690452DB1DC6F079D0175A9B66042 {
+   "expression": "1"
+}
+[1595584470.269][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=78) 503690452DB1DC6F079D0175A9B66042 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1595584470.269][INFO]: Done waiting for pending navigations. Status: ok
+[1595584470.271][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=79) 503690452DB1DC6F079D0175A9B66042 {
+   "awaitPromise": true,
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+[1595584470.274][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=79) 503690452DB1DC6F079D0175A9B66042 {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": [  ]
+      }
+   }
+}
+[1595584470.274][INFO]: Waiting for pending navigations...
+[1595584470.274][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=80) 503690452DB1DC6F079D0175A9B66042 {
+   "expression": "1"
+}
+[1595584470.275][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=80) 503690452DB1DC6F079D0175A9B66042 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1595584470.275][INFO]: Done waiting for pending navigations. Status: ok
+[1595584470.275][INFO]: [b741df3cf7b3719e6cdc6ee195a39894] RESPONSE FindElements [  ]
+[1595584470.771][INFO]: [b741df3cf7b3719e6cdc6ee195a39894] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//button[@type=\"submit\"]"
+}
+[1595584470.771][INFO]: Waiting for pending navigations...
+[1595584470.771][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=81) 503690452DB1DC6F079D0175A9B66042 {
+   "expression": "1"
+}
+[1595584470.772][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=81) 503690452DB1DC6F079D0175A9B66042 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1595584470.772][INFO]: Done waiting for pending navigations. Status: ok
+[1595584470.774][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=82) 503690452DB1DC6F079D0175A9B66042 {
+   "awaitPromise": true,
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+[1595584470.782][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=82) 503690452DB1DC6F079D0175A9B66042 {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": [  ]
+      }
+   }
+}
+[1595584470.782][INFO]: Waiting for pending navigations...
+[1595584470.782][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=83) 503690452DB1DC6F079D0175A9B66042 {
+   "expression": "1"
+}
+[1595584470.784][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=83) 503690452DB1DC6F079D0175A9B66042 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1595584470.784][INFO]: Done waiting for pending navigations. Status: ok
+[1595584470.784][INFO]: [b741df3cf7b3719e6cdc6ee195a39894] RESPONSE FindElements [  ]
+[1595584471.272][INFO]: [b741df3cf7b3719e6cdc6ee195a39894] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//button[@type=\"submit\"]"
+}
+[1595584471.272][INFO]: Waiting for pending navigations...
+[1595584471.272][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=84) 503690452DB1DC6F079D0175A9B66042 {
+   "expression": "1"
+}
+[1595584471.273][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=84) 503690452DB1DC6F079D0175A9B66042 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1595584471.273][INFO]: Done waiting for pending navigations. Status: ok
+[1595584471.276][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=85) 503690452DB1DC6F079D0175A9B66042 {
+   "awaitPromise": true,
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+[1595584471.281][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=85) 503690452DB1DC6F079D0175A9B66042 {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": [  ]
+      }
+   }
+}
+[1595584471.281][INFO]: Waiting for pending navigations...
+[1595584471.281][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=86) 503690452DB1DC6F079D0175A9B66042 {
+   "expression": "1"
+}
+[1595584471.286][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=86) 503690452DB1DC6F079D0175A9B66042 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1595584471.286][INFO]: Done waiting for pending navigations. Status: ok
+[1595584471.286][INFO]: [b741df3cf7b3719e6cdc6ee195a39894] RESPONSE FindElements [  ]
+[1595584471.763][INFO]: [b741df3cf7b3719e6cdc6ee195a39894] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//button[@type=\"submit\"]"
+}
+[1595584471.763][INFO]: Waiting for pending navigations...
+[1595584471.763][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=87) 503690452DB1DC6F079D0175A9B66042 {
+   "expression": "1"
+}
+[1595584471.764][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=87) 503690452DB1DC6F079D0175A9B66042 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1595584471.764][INFO]: Done waiting for pending navigations. Status: ok
+[1595584471.766][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=88) 503690452DB1DC6F079D0175A9B66042 {
+   "awaitPromise": true,
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+[1595584471.773][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=88) 503690452DB1DC6F079D0175A9B66042 {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": [  ]
+      }
+   }
+}
+[1595584471.773][INFO]: Waiting for pending navigations...
+[1595584471.773][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=89) 503690452DB1DC6F079D0175A9B66042 {
+   "expression": "1"
+}
+[1595584471.774][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=89) 503690452DB1DC6F079D0175A9B66042 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1595584471.774][INFO]: Done waiting for pending navigations. Status: ok
+[1595584471.774][INFO]: [b741df3cf7b3719e6cdc6ee195a39894] RESPONSE FindElements [  ]
+[1595584472.274][INFO]: [b741df3cf7b3719e6cdc6ee195a39894] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//button[@type=\"submit\"]"
+}
+[1595584472.274][INFO]: Waiting for pending navigations...
+[1595584472.274][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=90) 503690452DB1DC6F079D0175A9B66042 {
+   "expression": "1"
+}
+[1595584472.276][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=90) 503690452DB1DC6F079D0175A9B66042 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1595584472.276][INFO]: Done waiting for pending navigations. Status: ok
+[1595584472.278][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=91) 503690452DB1DC6F079D0175A9B66042 {
+   "awaitPromise": true,
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+[1595584472.285][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=91) 503690452DB1DC6F079D0175A9B66042 {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": [  ]
+      }
+   }
+}
+[1595584472.285][INFO]: Waiting for pending navigations...
+[1595584472.285][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=92) 503690452DB1DC6F079D0175A9B66042 {
+   "expression": "1"
+}
+[1595584472.286][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=92) 503690452DB1DC6F079D0175A9B66042 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1595584472.286][INFO]: Done waiting for pending navigations. Status: ok
+[1595584472.286][INFO]: [b741df3cf7b3719e6cdc6ee195a39894] RESPONSE FindElements [  ]
+[1595584472.773][INFO]: [b741df3cf7b3719e6cdc6ee195a39894] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//button[@type=\"submit\"]"
+}
+[1595584472.773][INFO]: Waiting for pending navigations...
+[1595584472.773][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=93) 503690452DB1DC6F079D0175A9B66042 {
+   "expression": "1"
+}
+[1595584472.774][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=93) 503690452DB1DC6F079D0175A9B66042 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1595584472.774][INFO]: Done waiting for pending navigations. Status: ok
+[1595584472.777][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=94) 503690452DB1DC6F079D0175A9B66042 {
+   "awaitPromise": true,
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+[1595584472.781][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=94) 503690452DB1DC6F079D0175A9B66042 {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": [  ]
+      }
+   }
+}
+[1595584472.781][INFO]: Waiting for pending navigations...
+[1595584472.781][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=95) 503690452DB1DC6F079D0175A9B66042 {
+   "expression": "1"
+}
+[1595584472.782][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=95) 503690452DB1DC6F079D0175A9B66042 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1595584472.782][INFO]: Done waiting for pending navigations. Status: ok
+[1595584472.782][INFO]: [b741df3cf7b3719e6cdc6ee195a39894] RESPONSE FindElements [  ]
+[1595584473.273][INFO]: [b741df3cf7b3719e6cdc6ee195a39894] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//button[@type=\"submit\"]"
+}
+[1595584473.273][INFO]: Waiting for pending navigations...
+[1595584473.273][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=96) 503690452DB1DC6F079D0175A9B66042 {
+   "expression": "1"
+}
+[1595584473.281][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=96) 503690452DB1DC6F079D0175A9B66042 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1595584473.281][INFO]: Done waiting for pending navigations. Status: ok
+[1595584473.290][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=97) 503690452DB1DC6F079D0175A9B66042 {
+   "awaitPromise": true,
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+[1595584473.302][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=97) 503690452DB1DC6F079D0175A9B66042 {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": [  ]
+      }
+   }
+}
+[1595584473.302][INFO]: Waiting for pending navigations...
+[1595584473.303][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=98) 503690452DB1DC6F079D0175A9B66042 {
+   "expression": "1"
+}
+[1595584473.306][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=98) 503690452DB1DC6F079D0175A9B66042 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1595584473.306][INFO]: Done waiting for pending navigations. Status: ok
+[1595584473.306][INFO]: [b741df3cf7b3719e6cdc6ee195a39894] RESPONSE FindElements [  ]
+[1595584473.306][INFO]: [b741df3cf7b3719e6cdc6ee195a39894] COMMAND Quit {
+
+}
+[1595584473.581][INFO]: [b741df3cf7b3719e6cdc6ee195a39894] RESPONSE Quit
+[1595584473.581][DEBUG]: Log type 'driver' lost 0 entries on destruction
+[1595584473.581][DEBUG]: Log type 'browser' lost 81 entries on destruction
